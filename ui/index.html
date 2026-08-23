@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>English Content Pipeline · Sentence Study</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div class="brand-lockup">
+          <div class="brand-mark">E</div>
+          <div>
+            <p class="eyebrow">ENGLISH CONTENT PIPELINE</p>
+            <h1>Sentence Study</h1>
+          </div>
+        </div>
+        <div class="topbar-actions">
+          <span class="save-status" id="saveStatus">자동 저장됨</span>
+          <button class="button button-ghost" id="resetButton" type="button">처음부터</button>
+        </div>
+      </header>
+
+      <main class="workspace">
+        <aside class="sidebar">
+          <div class="calendar-panel" id="calendarPanel"></div>
+
+          <div class="progress-block">
+            <div class="progress-heading">
+              <span>학습 진행률</span>
+              <strong id="progressText">0%</strong>
+            </div>
+            <div class="progress-track"><span id="progressBar"></span></div>
+          </div>
+
+          <nav class="sentence-nav" aria-label="문장 목록" id="sentenceNav"></nav>
+
+          <div class="sidebar-note">
+            <span class="note-icon">i</span>
+            <p>해석을 저장하면 마지막 <strong>Review</strong> 화면에서 모든 문장을 한 번에 비교할 수 있어요.</p>
+          </div>
+        </aside>
+
+        <section class="content-area">
+          <div class="lesson-heading">
+            <p class="lesson-day" id="lessonDay">01일차</p>
+            <span class="course-tag" id="lessonTag">READING · CLIMATE</span>
+            <h2 id="lessonTitle">Climate Change<br />and Water</h2>
+            <p id="lessonDescription">기후 변화가 물의 양과 수질에 미치는 영향을 읽고 이해합니다.</p>
+          </div>
+
+          <div class="content-heading">
+            <div>
+              <p class="section-kicker">READING PRACTICE</p>
+              <h3>문장별로 이해하기</h3>
+            </div>
+            <div class="view-switcher" role="tablist" aria-label="학습 화면 전환">
+              <button class="view-tab is-active" data-view="study" type="button">Study</button>
+              <button class="view-tab" data-view="reading" type="button">Read</button>
+              <button class="view-tab" data-view="review" type="button">Review</button>
+            </div>
+          </div>
+
+          <div id="studyView">
+            <div class="study-meta">
+              <span id="sentenceCounter">SENTENCE 01 / 10</span>
+              <span class="meta-divider">·</span>
+              <span id="sectionLabel">INTRODUCTION</span>
+            </div>
+
+            <article class="sentence-card" id="sentenceCard">
+              <div class="card-topline">
+                <span class="sentence-number" id="sentenceNumber">01</span>
+                <span class="status-pill" id="sentenceStatus">작성 전</span>
+              </div>
+              <p class="original-label">ORIGINAL SENTENCE</p>
+              <p class="original-sentence" id="originalSentence"></p>
+
+              <label class="interpretation-label" for="interpretationInput">나의 해석</label>
+              <textarea id="interpretationInput" rows="5" placeholder="이 문장을 어떻게 해석했는지 직접 적어보세요."></textarea>
+              <div class="input-footer">
+                <span>정답을 보기 전에 먼저 충분히 생각해보세요.</span>
+                <span id="characterCount">0자</span>
+              </div>
+
+              <div class="answer-preview" id="answerPreview" hidden>
+                <div class="answer-block">
+                  <p class="answer-label">올바른 해석</p>
+                  <p id="correctTranslation"></p>
+                </div>
+                <div class="answer-block review-block">
+                  <p class="answer-label">이 문장, 이렇게 이해했나요?</p>
+                  <div id="reviewFeedback"></div>
+                </div>
+              </div>
+              <button class="reveal-button" id="revealButton" type="button">올바른 해석 보기</button>
+            </article>
+
+            <div class="study-controls">
+              <button class="button button-ghost" id="previousButton" type="button">← 이전 문장</button>
+              <button class="button button-primary" id="nextButton" type="button">다음 문장 →</button>
+            </div>
+          </div>
+
+          <div id="readingView" hidden>
+            <div class="reading-intro">
+              <p class="section-kicker">FULL READING</p>
+              <h3>전체 본문 읽기</h3>
+              <p>문장별 입력 없이 글 전체의 흐름을 먼저 읽어보는 모드입니다.</p>
+            </div>
+            <div class="reading-text" id="readingText"></div>
+          </div>
+
+          <div id="reviewView" hidden>
+            <div class="review-intro">
+              <p class="section-kicker">FINAL REVIEW</p>
+              <h3>해석을 다시 점검해보기</h3>
+              <p>각 문장의 원문, 직접 작성한 해석, 올바른 해석과 핵심 포인트를 한 번에 확인합니다.</p>
+            </div>
+            <div class="review-list" id="reviewList"></div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

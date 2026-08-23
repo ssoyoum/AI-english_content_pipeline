@@ -1,0 +1,16 @@
+{
+  "lessons": [
+    {
+      "day": 1,
+      "topic": "Digital Minimalism",
+      "title": "Digital Minimalism and the Problem of Too Much Choice",
+      "content_file": "digital_minimalism.json"
+    },
+    {
+      "day": 2,
+      "topic": "Climate Change and Water",
+      "title": "Climate Change and Water",
+      "content_file": "climate_change_water.json"
+    }
+  ]
+}
