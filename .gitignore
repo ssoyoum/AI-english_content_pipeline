@@ -1,0 +1,16 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Generated pipeline artifacts
+outputs/
+.tmp_outputs/
+Python/
+
+# Python cache and local tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
