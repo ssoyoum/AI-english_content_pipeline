@@ -7,6 +7,7 @@ from pathlib import Path
 from typing import Any
 
 from fastapi import FastAPI, HTTPException
+from fastapi.responses import RedirectResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
@@ -43,9 +44,16 @@ class LessonGenerateRequest(BaseModel):
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 CONTENT_ROOT = PROJECT_ROOT / "content"
 OUTPUT_ROOT = PROJECT_ROOT / "outputs"
+UI_ROOT = PROJECT_ROOT / "ui"
 OUTPUT_ROOT.mkdir(parents=True, exist_ok=True)
 app = FastAPI(title="English Content Pipeline", version="0.1.0")
 app.mount("/outputs", StaticFiles(directory=OUTPUT_ROOT), name="outputs")
+app.mount("/ui", StaticFiles(directory=UI_ROOT, html=True), name="ui")
+
+
+@app.get("/", include_in_schema=False)
+def home() -> RedirectResponse:
+    return RedirectResponse(url="/ui/")
 
 
 @app.get("/health")
@@ -110,6 +118,7 @@ def generate_content(request: ContentRequest) -> dict[str, object]:
     record_stage(output_dir, "content_generation", "success")
     content = json.loads((output_dir / "content.json").read_text(encoding="utf-8"))
     audio_filename: str | None = None
+    timing_data: dict[str, object] | None = None
     try:
         if request.tts:
             audio_plan = build_audio_script(content)
@@ -126,15 +135,22 @@ def generate_content(request: ContentRequest) -> dict[str, object]:
                 encoding="utf-8",
             )
             audio_path = LocalTTSGenerator().generate(
-                audio_plan["full_script"], output_dir / "audio.mp3"
+                audio_plan["full_script"],
+                output_dir / "audio.mp3",
+                output_dir / "audio_cues.json",
+                audio_plan["body"],
             )
             audio_filename = audio_path.name
+            timing_path = output_dir / "audio_cues.json"
+            if timing_path.exists():
+                timing_data = json.loads(timing_path.read_text(encoding="utf-8"))
             record_stage(
                 output_dir,
                 "tts",
                 "success",
                 {
                     "artifact": audio_filename,
+                    "timing_artifact": "audio_cues.json",
                     "difficult_sentences": len(audio_plan["difficult_sentences"]),
                     "difficult_words": len(audio_plan["difficult_words"]),
                 },
@@ -144,6 +160,7 @@ def generate_content(request: ContentRequest) -> dict[str, object]:
             content,
             output_dir / "learning.html",
             audio_filename=audio_filename,
+            timing_data=timing_data,
             review_url="/pipeline/review",
             content_reference=(output_dir / "content.json").relative_to(PROJECT_ROOT).as_posix(),
             lesson_day=request.day,

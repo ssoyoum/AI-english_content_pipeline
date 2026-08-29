@@ -125,7 +125,10 @@ def main() -> int:
                     encoding="utf-8",
                 )
                 audio_path = LocalTTSGenerator().generate(
-                    audio_plan["full_script"], output_dir / "audio.mp3"
+                    audio_plan["full_script"],
+                    output_dir / "audio.mp3",
+                    output_dir / "audio_cues.json",
+                    audio_plan["body"],
                 )
                 record_stage(
                     output_dir,
@@ -133,6 +136,7 @@ def main() -> int:
                     "success",
                     {
                         "artifact": str(audio_path.relative_to(output_dir)),
+                        "timing_artifact": "audio_cues.json",
                         "difficult_sentences": len(audio_plan["difficult_sentences"]),
                         "difficult_words": len(audio_plan["difficult_words"]),
                     },

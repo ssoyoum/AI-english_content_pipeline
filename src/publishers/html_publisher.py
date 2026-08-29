@@ -49,6 +49,7 @@ def _highlight_sentence(sentence: str, focus_terms: list[str]) -> str:
 def build_learning_html(
     content: dict[str, Any],
     audio_filename: str | None = None,
+    timing_data: dict[str, Any] | None = None,
     review_url: str | None = None,
     content_reference: str | None = None,
     lesson_day: int = 1,
@@ -89,11 +90,39 @@ def build_learning_html(
     )
     audio_html = ""
     if audio_filename:
+        tts_data_json = json.dumps(timing_data or {}, ensure_ascii=False)
         audio_html = f"""<section class='audio-panel'>
-  <h2>Audio Practice</h2>
+  <div class='audio-heading'><div><div class='eyebrow'>TTS SCRIPT</div><h2>대본 따라 듣기</h2></div><span id='tts-voice'>Jenny Neural</span></div>
   <audio controls preload='metadata' src='{_escape(audio_filename)}'></audio>
+  <div class='tts-transcript' id='tts-transcript' aria-live='polite'>TTS 대본을 불러오는 중입니다.</div>
   <p>The audio includes the introduction, full reading, and pronunciation repetition practice.</p>
 </section>"""
+        audio_html += f"""
+<script>
+  const ttsData = {tts_data_json};
+  const ttsAudio = document.querySelector('.audio-panel audio');
+  const ttsTranscript = document.querySelector('#tts-transcript');
+  let ttsWords = Array.isArray(ttsData.words) ? ttsData.words : [];
+  function ttsEscape(value) {{
+    return String(value).replace(/[&<>\"']/g, (character) => ({{'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;',"'":'&#39;'}})[character]);
+  }}
+  function renderTtsTranscript() {{
+    if (!ttsWords.length) {{
+      ttsWords = String(ttsData.transcript || '').trim().split(/\\s+/).filter(Boolean).map((text, index) => ({{text, start:index, end:index + 1}}));
+    }}
+    ttsTranscript.innerHTML = ttsWords.length
+      ? ttsWords.map((word, index) => `<span class='tts-word' data-index='${{index}}'>${{ttsEscape(word.text || word)}}</span>`).join(' ')
+      : '<span class="tts-empty">TTS timing data is not available for this audio.</span>';
+    if (ttsData.voice) document.querySelector('#tts-voice').textContent = ttsData.voice.replace('en-US-', '').replace('Neural', ' Neural');
+  }}
+  renderTtsTranscript();
+  ttsAudio.addEventListener('timeupdate', () => {{
+    const activeIndex = ttsWords.findIndex((word) => ttsAudio.currentTime >= Number(word.start) && ttsAudio.currentTime <= Number(word.end));
+    document.querySelectorAll('.tts-word').forEach((word, index) => word.classList.toggle('is-active', index === activeIndex));
+    const activeWord = document.querySelector('.tts-word.is-active');
+    if (activeWord) activeWord.scrollIntoView({{block:'nearest', inline:'nearest'}});
+  }});
+</script>"""
 
     title = _escape(content["title"])
     topic = _escape(content["topic"])
@@ -140,6 +169,13 @@ def build_learning_html(
     textarea {{ display:block; width:100%; min-height:96px; resize:vertical; border:1px solid var(--line); border-radius:12px; padding:12px; font:inherit; margin:8px 0 12px; }}
     .review-panel {{ background:var(--soft); border-left:4px solid var(--accent); padding:4px 16px 12px; margin-top:14px; border-radius:8px; }}
     audio {{ width:100%; }}
+    .audio-heading {{ display:flex; align-items:center; justify-content:space-between; gap:16px; }}
+    .audio-heading h2 {{ margin:5px 0 0; }}
+    .audio-heading > span {{ color:var(--accent); font-size:12px; font-weight:800; }}
+    .tts-transcript {{ max-height:160px; overflow:auto; margin-top:16px; padding:14px 16px; border:1px solid var(--line); border-radius:12px; background:var(--soft); font:18px/1.8 Georgia,serif; }}
+    .tts-word {{ padding:2px 3px; border-radius:4px; transition:background .12s,color .12s; }}
+    .tts-word.is-active {{ color:var(--ink); background:#E2B4BD; }}
+    .tts-empty {{ color:var(--muted); font:13px/1.5 Inter,Segoe UI,Arial,sans-serif; }}
     li {{ margin:16px 0; }}
     li p {{ margin:4px 0 0; color:var(--muted); }}
     .read-only .sentence-study {{ display:none; }}
@@ -328,6 +364,7 @@ def write_learning_html(
     content: dict[str, Any],
     output_path: Path,
     audio_filename: str | None = None,
+    timing_data: dict[str, Any] | None = None,
     review_url: str | None = None,
     content_reference: str | None = None,
     lesson_day: int = 1,
@@ -338,6 +375,7 @@ def write_learning_html(
         build_learning_html(
             content,
             audio_filename,
+            timing_data=timing_data,
             review_url=review_url,
             content_reference=content_reference,
             lesson_day=lesson_day,

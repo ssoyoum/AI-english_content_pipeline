@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HTML version comparison</title>
+    <style>
+      :root { color-scheme: light; font-family: Inter, Arial, sans-serif; color: #4a4a4a; background: #fff5f5; }
+      * { box-sizing: border-box; }
+      body { margin: 0; }
+      header { padding: 20px 28px; border-bottom: 1px solid #f7d6d0; background: #fff; }
+      h1 { margin: 0 0 6px; font-size: 20px; }
+      p { margin: 0; color: #77666a; font-size: 13px; }
+      main { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; padding: 16px; min-height: calc(100vh - 80px); }
+      section { min-width: 0; display: flex; flex-direction: column; gap: 8px; }
+      h2 { margin: 0; font-size: 14px; }
+      iframe { width: 100%; flex: 1; min-height: 760px; border: 1px solid #e2b4bd; border-radius: 12px; background: #fff; }
+      @media (max-width: 900px) { main { grid-template-columns: 1fr; } iframe { min-height: 680px; } }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>HTML version comparison</h1>
+      <p>왼쪽: 지난주 완성본 · 오른쪽: 현재 Dashboard / Study 통합본</p>
+    </header>
+    <main>
+      <section>
+        <h2>지난주 완성본</h2>
+        <iframe title="Previous completed HTML" src="../outputs/climate-change-and-water/learning.html"></iframe>
+      </section>
+      <section>
+        <h2>현재 버전</h2>
+        <iframe title="Current HTML" src="index.html"></iframe>
+      </section>
+    </main>
+  </body>
+</html>

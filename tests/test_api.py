@@ -11,6 +11,8 @@ class ApiTests(unittest.TestCase):
         self.assertIn("/pipeline/content", routes)
         self.assertIn("/lessons", routes)
         self.assertIn("/lessons/{day}/generate", routes)
+        self.assertIn("/", routes)
+        self.assertIn("/ui", routes)
 
 
 if __name__ == "__main__":
