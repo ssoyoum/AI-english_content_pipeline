@@ -356,6 +356,13 @@ textarea:focus { border-color: var(--green); box-shadow: 0 0 0 3px rgba(82, 109,
 .design-dashboard-grid { grid-template-columns:1fr; }
 .design-dashboard-left { grid-template-columns:minmax(0,1.35fr) minmax(280px,.65fr); }
 .design-recommended-card { min-height:380px; }
+.design-vocab-preview { padding-top:16px; border-top:1px solid #F7D6D0; }
+.design-vocab-preview > p { margin:0 0 5px; color:#B77C8B; font-size:10px; font-weight:750; letter-spacing:.08em; }
+.design-vocab-preview h3 { margin:0 0 10px; color:#4A4A4A; font-size:14px; }
+.design-vocab-preview ol { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:7px 18px; margin:0; padding:0; list-style:none; counter-reset:vocabulary; }
+.design-vocab-preview li { min-width:0; display:flex; align-items:baseline; gap:7px; color:#4A4A4A; font-size:12px; }
+.design-vocab-preview li::before { counter-increment:vocabulary; content:counter(vocabulary, decimal-leading-zero); flex:0 0 auto; color:#B77C8B; font-size:10px; font-weight:750; }
+.design-vocab-preview li strong { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
 .design-weak-list { display:grid; gap:10px; margin-top:16px; }
 .design-milestones-card { min-height:212px; }
 .design-milestones:empty::after { content:"Complete a lesson to unlock your first milestone."; color:#77666a; font-size:13px; }
@@ -404,7 +411,7 @@ body { color:#4A4A4A; background:#FFF5F5; }
 .button-primary:hover { background:#D5A2AE; }
 .button-ghost { color:#77666a; border-color:#F7D6D0; background:#fff; }
 .study-shell .calendar-panel { display:none; }
-.tts-panel, .original-panel { margin-bottom:30px; padding:22px 24px; border:1px solid #F7D6D0; border-radius:14px; background:#fff; box-shadow:0 10px 26px rgba(226,180,189,.12); }
+.tts-panel { margin-bottom:30px; padding:22px 24px; border:1px solid #F7D6D0; border-radius:14px; background:#fff; box-shadow:0 10px 26px rgba(226,180,189,.12); }
 .tts-heading { display:flex; align-items:center; justify-content:space-between; gap:16px; margin-bottom:14px; }
 .tts-heading h3 { margin:7px 0 0; font:500 24px Georgia,serif; }
 .tts-heading > span { color:#B77C8B; font-size:11px; font-weight:750; }
@@ -414,12 +421,6 @@ body { color:#4A4A4A; background:#FFF5F5; }
 .tts-word.is-active { color:#4A4A4A; background:#E2B4BD; box-shadow:0 0 0 3px rgba(226,180,189,.26); }
 .tts-empty { margin:0; color:#77666a; font:13px/1.6 Inter,sans-serif; }
 .compact-heading { margin-bottom:16px; }
-.original-panel { background:#FFF5F5; }
-.original-reference { display:grid; gap:14px; }
-.original-reference p { margin:0; padding:14px 16px; color:#4A4A4A; border:1px solid #F7D6D0; border-radius:10px; background:#fff; font:18px/1.65 Georgia,serif; }
-.original-reference p { padding:22px 24px; font-size:20px; line-height:1.8; }
-.original-reference-number { display:inline-block; margin-right:10px; color:#B77C8B; font:700 12px/1 Inter,sans-serif; vertical-align:.18em; }
-.original-reference .important-word { color:#4A4A4A; background:#F7D6D0; }
 .design-workspace { background:#FFF5F5; }
 .design-sidebar { background:#F7D6D0; border-color:#E2B4BD; }
 .design-brand-mark { color:#4A4A4A; background:#E2B4BD; }
@@ -457,3 +458,16 @@ body { color:#4A4A4A; background:#FFF5F5; }
 .study-controls .button-primary:hover { border-color:#E2B4BD; background:#FFF5F5; }
 .design-content { width:100%; }
 @media (max-width:680px) { .design-content { width:100%; } }
+
+/* Study opens directly on the sentence workspace; Read keeps every sentence in order. */
+.admin-link { color:#4A4A4A; font-size:11px; font-weight:750; text-decoration:none; border-bottom:1px solid #E2B4BD; padding-bottom:3px; white-space:nowrap; }
+.admin-link:hover { color:#B77C8B; }
+.reading-text { display:grid; gap:0; padding:12px 28px; }
+.reading-sentence-item { padding:24px 10px; }
+.reading-sentence-heading { display:flex; align-items:flex-start; gap:12px; margin-bottom:12px; }
+.reading-sentence-heading .reading-number { flex:0 0 auto; margin:4px 0 0; color:#B77C8B; font-size:13px; }
+.reading-section-label { margin:0 0 5px; color:#B77C8B; font:700 10px/1.2 Inter,sans-serif; letter-spacing:.1em; }
+.reading-sentence-item h4 { margin:0; color:#4A4A4A; font:700 16px/1.35 Inter,sans-serif; letter-spacing:-.01em; }
+.reading-sentence-item .reading-paragraph { margin:0 0 20px; color:#4A4A4A; font:400 20px/1.85 Georgia,serif; }
+.reading-sentence-item hr { height:1px; margin:24px 0 0; border:0; background:#F7D6D0; }
+@media (max-width:560px) { .topbar-actions { gap:10px; } .admin-link { font-size:10px; } .reading-text { padding:8px 16px; } .reading-sentence-item { padding:20px 4px; } .reading-sentence-item .reading-paragraph { font-size:18px; } }
