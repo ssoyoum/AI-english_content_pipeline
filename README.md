@@ -97,3 +97,42 @@ outputs/
 ## API 없는 운영 방식
 
 LLM API를 사용하지 않으려면 사용자가 미리 제공한 원문·해석과 문장별 학습 규칙을 기준으로 로컬 리뷰를 실행할 수 있습니다. 이 방식은 비용이 없고 결과가 일정하며, 핵심 의미와 오해 패턴을 교육자가 직접 통제할 수 있습니다. 입력 형식은 `content/README.md`를 참고합니다.
+
+## Lesson catalog and UI data flow
+
+The weekly learning flow now uses one source of truth:
+
+```text
+content/*.json -> FastAPI /api/lessons -> ui/app.js fetch() -> Dashboard / Study / Read / Review
+```
+
+`content/lessons.json` stores catalog metadata and each lesson JSON stores the authored article, ten sentence interpretations, review rules, vocabulary, and audio script. Add a catalog entry plus its JSON file and it will be loaded by the UI without editing lesson data in JavaScript.
+
+- `GET /api/lessons` returns lesson metadata including `id`, `title`, `level`, `category`, and `sentence_count`.
+- `GET /api/lessons/{lesson_id}` returns the full lesson and available `audio_url` / `cues_url`.
+- `loadLessons()` and `normalizeLesson()` connect API content to the existing UI.
+- `loadStudyProgress()` and `saveStudyProgress()` persist answers by lesson ID in localStorage.
+- `calculateCurrentStreak()` counts consecutive completed dates; it is not the number of dates ever completed.
+
+The dashboard, calendar, and progress screens derive their sentence counts, coverage, completion, streak, and study time from local study records. `Key Meaning Coverage` is the existing keyword/rule feedback metric; it is intentionally not labelled as translation accuracy until an LLM reviewer is added.
+
+Run the complete UI through FastAPI so the frontend can call the catalog API:
+
+```bash
+uvicorn src.api:app --host 127.0.0.1 --port 8001
+```
+
+Then open `http://127.0.0.1:8001/`. A plain `python -m http.server` serves the static files but does not provide `/api/lessons`.
+
+## Admin Content Studio
+
+Open `http://127.0.0.1:8001/admin` for the separate administrator workspace. The learner UI at `/ui/` remains unchanged as the learning surface.
+
+```text
+Admin brief -> POST /api/admin/lessons/generate -> Draft Preview/Edit
+           -> POST /api/admin/lessons/publish -> content/{lesson-id}.json
+                                               -> content/lessons.json
+                                               -> learner /api/lessons catalog
+```
+
+The form supports Topic, Level, Sentence Count, Category, optional learning goal/tone/vocabulary, local sample generation, browser-only Save Draft, sentence-level editing, and optional TTS generation at publish time. Uncheck `Use local sample for preview` to use the configured OpenAI generator. Publish validates the existing content schema before writing the lesson file and catalog entry.
