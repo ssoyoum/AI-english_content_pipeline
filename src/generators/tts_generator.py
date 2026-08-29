@@ -14,16 +14,29 @@ class TTSGenerationError(RuntimeError):
 
 
 class LocalTTSGenerator:
-    def generate(self, audio_script: str, output_path: Path) -> Path:
+    def generate(
+        self,
+        audio_script: str,
+        output_path: Path,
+        timing_path: Path | None = None,
+        transcript_text: str | None = None,
+    ) -> Path:
         if not audio_script.strip():
             raise TTSGenerationError("audio_script must not be empty")
         output_path.parent.mkdir(parents=True, exist_ok=True)
         output_path.unlink(missing_ok=True)
+        if timing_path:
+            timing_path.unlink(missing_ok=True)
 
         # Prefer the configurable neural voice so the result matches TTS_VOICE.
         edge_error: Exception | None = None
         try:
-            return self._generate_with_edge_tts(audio_script, output_path)
+            return self._generate_with_edge_tts(
+                audio_script,
+                output_path,
+                timing_path,
+                transcript_text,
+            )
         except Exception as error:  # Windows voice engines can fail independently of the package.
             edge_error = error
 
@@ -51,9 +64,15 @@ class LocalTTSGenerator:
             raise TTSGenerationError(f"TTS failed: {details}") from error
 
     @staticmethod
-    def _generate_with_edge_tts(audio_script: str, output_path: Path) -> Path:
+    def _generate_with_edge_tts(
+        audio_script: str,
+        output_path: Path,
+        timing_path: Path | None = None,
+        transcript_text: str | None = None,
+    ) -> Path:
         """Use Microsoft's free Edge voice endpoint without an API key."""
         import edge_tts
+        import json
 
         voice = os.getenv("TTS_VOICE", "en-US-JennyNeural")
         rate = os.getenv("TTS_RATE", "-5%")
@@ -70,8 +89,39 @@ class LocalTTSGenerator:
                 voice,
                 rate=rate,
                 pitch=pitch,
+                boundary="WordBoundary",
             )
-            await communicate.save(str(output_path))
+            audio_chunks: list[bytes] = []
+            word_cues: list[dict[str, object]] = []
+            async for chunk in communicate.stream():
+                if chunk["type"] == "audio":
+                    audio_chunks.append(chunk["data"])
+                elif chunk["type"] == "WordBoundary":
+                    word_cues.append(
+                        {
+                            "text": chunk["text"],
+                            "start": chunk["offset"] / 10_000_000,
+                            "end": (chunk["offset"] + chunk["duration"]) / 10_000_000,
+                        }
+                    )
+            output_path.write_bytes(b"".join(audio_chunks))
+            if timing_path:
+                timing_path.write_text(
+                    json.dumps(
+                        {
+                            "version": 1,
+                            "voice": voice,
+                            "rate": rate,
+                            "pitch": pitch,
+                            "transcript": transcript_text or audio_script,
+                            "words": word_cues,
+                        },
+                        ensure_ascii=False,
+                        indent=2,
+                    )
+                    + "\n",
+                    encoding="utf-8",
+                )
 
         asyncio.run(save_audio())
         if not output_path.exists() or output_path.stat().st_size == 0:
