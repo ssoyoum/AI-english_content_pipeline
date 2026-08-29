@@ -1,0 +1,356 @@
+{
+  "topic": "CREATIVE THINKING",
+  "title": "Ideas into Action",
+  "article": [
+    {
+      "heading": "FROM IDEA TO TEST",
+      "paragraph": "A useful idea becomes stronger when we test it with a real person and learn from the result."
+    },
+    {
+      "heading": "LEARNING BY DOING",
+      "paragraph": "Small experiments give us evidence that can guide the next decision."
+    },
+    {
+      "heading": "FROM IDEA TO TEST",
+      "paragraph": "An experiment turns an abstract possibility into something that can be observed and discussed. Good ideas become clearer when we describe the problem they are meant to solve. Feedback is most useful when it arrives early enough to change the next attempt. A failed test can narrow the possibilities and save time on the next decision. Creative work needs both imagination and a practical way to evaluate results. Teams move faster when they separate a promising idea from their personal identity. A clear next step keeps a discussion from ending with enthusiasm but no action. Learning by doing gives language a purpose because every phrase supports a real decision."
+    }
+  ],
+  "vocabulary": [
+    {
+      "expression": "becomes stronger",
+      "meaning": "핵심 표현",
+      "example": "A useful idea becomes stronger when we test it with a real person and learn from the result."
+    },
+    {
+      "expression": "test it with",
+      "meaning": "핵심 표현",
+      "example": "A useful idea becomes stronger when we test it with a real person and learn from the result."
+    },
+    {
+      "expression": "learn from the result",
+      "meaning": "핵심 표현",
+      "example": "A useful idea becomes stronger when we test it with a real person and learn from the result."
+    },
+    {
+      "expression": "small experiments",
+      "meaning": "핵심 표현",
+      "example": "Small experiments give us evidence that can guide the next decision."
+    },
+    {
+      "expression": "give us evidence",
+      "meaning": "핵심 표현",
+      "example": "Small experiments give us evidence that can guide the next decision."
+    },
+    {
+      "expression": "guide the next decision",
+      "meaning": "핵심 표현",
+      "example": "Small experiments give us evidence that can guide the next decision."
+    },
+    {
+      "expression": "an",
+      "meaning": "핵심 표현",
+      "example": "An experiment turns an abstract possibility into something that can be observed and discussed."
+    },
+    {
+      "expression": "experiment",
+      "meaning": "핵심 표현",
+      "example": "An experiment turns an abstract possibility into something that can be observed and discussed."
+    },
+    {
+      "expression": "turns",
+      "meaning": "핵심 표현",
+      "example": "An experiment turns an abstract possibility into something that can be observed and discussed."
+    },
+    {
+      "expression": "good",
+      "meaning": "핵심 표현",
+      "example": "Good ideas become clearer when we describe the problem they are meant to solve."
+    }
+  ],
+  "sentence_interpretations": [
+    {
+      "section": "FROM IDEA TO TEST",
+      "subheading": "Testing a Useful Idea",
+      "sentence": "A useful idea becomes stronger when we test it with a real person and learn from the result.",
+      "translation": "유용한 아이디어는 실제 사람에게 시험하고 결과에서 배울 때 더 발전합니다.",
+      "learning_note": "Focus on the highlighted phrase and its role in the sentence.",
+      "focus_terms": [
+        "becomes stronger",
+        "test it with",
+        "learn from the result"
+      ]
+    },
+    {
+      "section": "LEARNING BY DOING",
+      "subheading": "Evidence from Small Experiments",
+      "sentence": "Small experiments give us evidence that can guide the next decision.",
+      "translation": "작은 실험은 다음 결정을 이끌 수 있는 근거를 제공합니다.",
+      "learning_note": "Focus on the highlighted phrase and its role in the sentence.",
+      "focus_terms": [
+        "small experiments",
+        "give us evidence",
+        "guide the next decision"
+      ]
+    },
+    {
+      "section": "FROM IDEA TO TEST",
+      "subheading": "Making Possibilities Visible",
+      "sentence": "An experiment turns an abstract possibility into something that can be observed and discussed.",
+      "translation": "실험은 추상적인 가능성을 관찰하고 논의할 수 있는 것으로 바꿉니다.",
+      "learning_note": "Focus on the highlighted phrase and its role in the sentence.",
+      "focus_terms": [
+        "an",
+        "experiment",
+        "turns"
+      ]
+    },
+    {
+      "section": "FROM IDEA TO TEST",
+      "subheading": "Defining the Problem",
+      "sentence": "Good ideas become clearer when we describe the problem they are meant to solve.",
+      "translation": "좋은 아이디어는 해결하려는 문제를 설명할 때 더 분명해집니다.",
+      "learning_note": "Focus on the highlighted phrase and its role in the sentence.",
+      "focus_terms": [
+        "good",
+        "ideas",
+        "become"
+      ]
+    },
+    {
+      "section": "FROM IDEA TO TEST",
+      "subheading": "Early Feedback",
+      "sentence": "Feedback is most useful when it arrives early enough to change the next attempt.",
+      "translation": "피드백은 다음 시도를 바꿀 수 있을 만큼 일찍 올 때 가장 유용합니다.",
+      "learning_note": "Focus on the highlighted phrase and its role in the sentence.",
+      "focus_terms": [
+        "feedback",
+        "is",
+        "most"
+      ]
+    },
+    {
+      "section": "FROM IDEA TO TEST",
+      "subheading": "Learning from Failure",
+      "sentence": "A failed test can narrow the possibilities and save time on the next decision.",
+      "translation": "실패한 테스트는 가능성을 좁히고 다음 결정에 걸리는 시간을 줄일 수 있습니다.",
+      "learning_note": "Focus on the highlighted phrase and its role in the sentence.",
+      "focus_terms": [
+        "a",
+        "failed",
+        "test"
+      ]
+    },
+    {
+      "section": "FROM IDEA TO TEST",
+      "subheading": "Imagination and Evaluation",
+      "sentence": "Creative work needs both imagination and a practical way to evaluate results.",
+      "translation": "창의적인 작업에는 상상력과 결과를 평가할 실용적인 방법이 모두 필요합니다.",
+      "learning_note": "Focus on the highlighted phrase and its role in the sentence.",
+      "focus_terms": [
+        "creative",
+        "work",
+        "needs"
+      ]
+    },
+    {
+      "section": "FROM IDEA TO TEST",
+      "subheading": "Separating Ideas from Identity",
+      "sentence": "Teams move faster when they separate a promising idea from their personal identity.",
+      "translation": "팀은 유망한 아이디어와 개인의 정체성을 분리할 때 더 빠르게 움직입니다.",
+      "learning_note": "Focus on the highlighted phrase and its role in the sentence.",
+      "focus_terms": [
+        "teams",
+        "move",
+        "faster"
+      ]
+    },
+    {
+      "section": "FROM IDEA TO TEST",
+      "subheading": "The Next Concrete Step",
+      "sentence": "A clear next step keeps a discussion from ending with enthusiasm but no action.",
+      "translation": "명확한 다음 단계는 토론이 열정만 남긴 채 행동 없이 끝나는 것을 막습니다.",
+      "learning_note": "Focus on the highlighted phrase and its role in the sentence.",
+      "focus_terms": [
+        "a",
+        "clear",
+        "next"
+      ]
+    },
+    {
+      "section": "FROM IDEA TO TEST",
+      "subheading": "Learning by Doing",
+      "sentence": "Learning by doing gives language a purpose because every phrase supports a real decision.",
+      "translation": "실행을 통한 학습은 모든 표현이 실제 결정을 돕기 때문에 언어에 목적을 부여합니다.",
+      "learning_note": "Focus on the highlighted phrase and its role in the sentence.",
+      "focus_terms": [
+        "learning",
+        "by",
+        "doing"
+      ]
+    }
+  ],
+  "review_rules": [
+    {
+      "sentence_index": 1,
+      "concepts": [
+        {
+          "name": "Key structure",
+          "keywords": [
+            "becomes stronger",
+            "test it with"
+          ],
+          "wrong_patterns": [],
+          "feedback": "Use this phrase as one meaningful unit when translating."
+        }
+      ]
+    },
+    {
+      "sentence_index": 2,
+      "concepts": [
+        {
+          "name": "Key structure",
+          "keywords": [
+            "small experiments",
+            "give us evidence"
+          ],
+          "wrong_patterns": [],
+          "feedback": "Use this phrase as one meaningful unit when translating."
+        }
+      ]
+    },
+    {
+      "sentence_index": 3,
+      "concepts": [
+        {
+          "name": "Key structure",
+          "keywords": [
+            "an",
+            "experiment"
+          ],
+          "wrong_patterns": [],
+          "feedback": "Use this phrase as one meaningful unit when translating."
+        }
+      ]
+    },
+    {
+      "sentence_index": 4,
+      "concepts": [
+        {
+          "name": "Key structure",
+          "keywords": [
+            "good",
+            "ideas"
+          ],
+          "wrong_patterns": [],
+          "feedback": "Use this phrase as one meaningful unit when translating."
+        }
+      ]
+    },
+    {
+      "sentence_index": 5,
+      "concepts": [
+        {
+          "name": "Key structure",
+          "keywords": [
+            "feedback",
+            "is"
+          ],
+          "wrong_patterns": [],
+          "feedback": "Use this phrase as one meaningful unit when translating."
+        }
+      ]
+    },
+    {
+      "sentence_index": 6,
+      "concepts": [
+        {
+          "name": "Key structure",
+          "keywords": [
+            "a",
+            "failed"
+          ],
+          "wrong_patterns": [],
+          "feedback": "Use this phrase as one meaningful unit when translating."
+        }
+      ]
+    },
+    {
+      "sentence_index": 7,
+      "concepts": [
+        {
+          "name": "Key structure",
+          "keywords": [
+            "creative",
+            "work"
+          ],
+          "wrong_patterns": [],
+          "feedback": "Use this phrase as one meaningful unit when translating."
+        }
+      ]
+    },
+    {
+      "sentence_index": 8,
+      "concepts": [
+        {
+          "name": "Key structure",
+          "keywords": [
+            "teams",
+            "move"
+          ],
+          "wrong_patterns": [],
+          "feedback": "Use this phrase as one meaningful unit when translating."
+        }
+      ]
+    },
+    {
+      "sentence_index": 9,
+      "concepts": [
+        {
+          "name": "Key structure",
+          "keywords": [
+            "a",
+            "clear"
+          ],
+          "wrong_patterns": [],
+          "feedback": "Use this phrase as one meaningful unit when translating."
+        }
+      ]
+    },
+    {
+      "sentence_index": 10,
+      "concepts": [
+        {
+          "name": "Key structure",
+          "keywords": [
+            "learning",
+            "by"
+          ],
+          "wrong_patterns": [],
+          "feedback": "Use this phrase as one meaningful unit when translating."
+        }
+      ]
+    }
+  ],
+  "conversation_questions": [
+    {
+      "question": "How does ideas into action connect to your daily life?",
+      "sample_answer": "I can apply this idea by making one practical change this week.",
+      "coaching_point": "Use because or so to explain a reason and result."
+    },
+    {
+      "question": "Which idea in this lesson would you like to discuss?",
+      "sample_answer": "I would like to discuss the idea that has the clearest practical effect.",
+      "coaching_point": "Use would like to when sharing a preference."
+    },
+    {
+      "question": "What is one action you can take after reading?",
+      "sample_answer": "I can test one small action and review the result later.",
+      "coaching_point": "Use can plus the base verb for practical actions."
+    }
+  ],
+  "audio_script": "A useful idea becomes stronger when we test it with a real person and learn from the result. Small experiments give us evidence that can guide the next decision. An experiment turns an abstract possibility into something that can be observed and discussed. Good ideas become clearer when we describe the problem they are meant to solve. Feedback is most useful when it arrives early enough to change the next attempt. A failed test can narrow the possibilities and save time on the next decision. Creative work needs both imagination and a practical way to evaluate results. Teams move faster when they separate a promising idea from their personal identity. A clear next step keeps a discussion from ending with enthusiasm but no action. Learning by doing gives language a purpose because every phrase supports a real decision.",
+  "metadata": {
+    "reading_time": "8 minutes",
+    "conversation_time": "10 minutes"
+  }
+}

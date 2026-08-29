@@ -2,15 +2,73 @@
   "lessons": [
     {
       "day": 1,
-      "topic": "Digital Minimalism",
-      "title": "Digital Minimalism and the Problem of Too Much Choice",
-      "content_file": "digital_minimalism.json"
+      "id": "climate-change-water",
+      "topic": "Climate Change and Water",
+      "title": "Climate Change and Water",
+      "level": "Intermediate",
+      "category": "Environment",
+      "content_file": "climate_change_water.json",
+      "audio_output": "climate-change-and-water"
     },
     {
       "day": 2,
-      "topic": "Climate Change and Water",
-      "title": "Climate Change and Water",
-      "content_file": "climate_change_water.json"
+      "id": "value-of-rest",
+      "topic": "The Value of Rest",
+      "title": "The Value of Rest",
+      "level": "Intermediate",
+      "category": "Wellbeing",
+      "content_file": "value_of_rest.json",
+      "audio_output": "weekly-day-2-rest"
+    },
+    {
+      "day": 3,
+      "id": "digital-minimalism",
+      "topic": "Digital Minimalism",
+      "title": "Digital Minimalism and Attention",
+      "level": "Intermediate",
+      "category": "Technology",
+      "content_file": "digital_minimalism.json",
+      "audio_output": "weekly-day-3-digital-focus"
+    },
+    {
+      "day": 4,
+      "id": "technology-and-trust",
+      "topic": "Technology and Trust",
+      "title": "Technology and Trust",
+      "level": "Intermediate",
+      "category": "Technology",
+      "content_file": "technology_and_trust.json",
+      "audio_output": "weekly-day-4-technology-trust"
+    },
+    {
+      "day": 5,
+      "id": "global-communication",
+      "topic": "Global Communication",
+      "title": "Global Communication in Practice",
+      "level": "Intermediate",
+      "category": "Communication",
+      "content_file": "global_communication.json",
+      "audio_output": "weekly-day-5-global-communication"
+    },
+    {
+      "day": 6,
+      "id": "building-small-habits",
+      "topic": "Building Small Habits",
+      "title": "Small Habits That Last",
+      "level": "Intermediate",
+      "category": "Wellbeing",
+      "content_file": "building_small_habits.json",
+      "audio_output": "weekly-day-6-small-habits"
+    },
+    {
+      "day": 7,
+      "id": "ideas-into-action",
+      "topic": "Ideas into Action",
+      "title": "Ideas into Action",
+      "level": "Intermediate",
+      "category": "Creative Thinking",
+      "content_file": "ideas_into_action.json",
+      "audio_output": "weekly-day-7-ideas-action"
     }
   ]
 }

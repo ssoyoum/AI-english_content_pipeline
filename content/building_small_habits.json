@@ -1,0 +1,356 @@
+{
+  "topic": "HEALTHY HABITS",
+  "title": "Small Habits That Last",
+  "article": [
+    {
+      "heading": "REPEATABLE ACTIONS",
+      "paragraph": "A habit becomes easier to keep when the action is simple enough to repeat every day."
+    },
+    {
+      "heading": "LONG-TERM CHANGE",
+      "paragraph": "Consistency matters more than intensity when we are building a lasting change."
+    },
+    {
+      "heading": "REPEATABLE ACTIONS",
+      "paragraph": "The first step should be small enough that it does not depend on perfect motivation. Attaching a new action to an existing routine makes it easier to remember. Tracking a habit can provide useful information without turning the routine into a competition. Missing one day is a signal to adjust the plan, not a reason to abandon it. A flexible routine can survive changes in schedule, energy, and unexpected events. People are more likely to continue when progress is visible in a simple form. The purpose of a routine is to support a life, not to control every moment of it. Over time, repeated choices can become evidence that a person is capable of change."
+    }
+  ],
+  "vocabulary": [
+    {
+      "expression": "becomes easier to keep",
+      "meaning": "핵심 표현",
+      "example": "A habit becomes easier to keep when the action is simple enough to repeat every day."
+    },
+    {
+      "expression": "simple enough to",
+      "meaning": "핵심 표현",
+      "example": "A habit becomes easier to keep when the action is simple enough to repeat every day."
+    },
+    {
+      "expression": "repeat every day",
+      "meaning": "핵심 표현",
+      "example": "A habit becomes easier to keep when the action is simple enough to repeat every day."
+    },
+    {
+      "expression": "consistency matters",
+      "meaning": "핵심 표현",
+      "example": "Consistency matters more than intensity when we are building a lasting change."
+    },
+    {
+      "expression": "more than intensity",
+      "meaning": "핵심 표현",
+      "example": "Consistency matters more than intensity when we are building a lasting change."
+    },
+    {
+      "expression": "lasting change",
+      "meaning": "핵심 표현",
+      "example": "Consistency matters more than intensity when we are building a lasting change."
+    },
+    {
+      "expression": "the",
+      "meaning": "핵심 표현",
+      "example": "The first step should be small enough that it does not depend on perfect motivation."
+    },
+    {
+      "expression": "first",
+      "meaning": "핵심 표현",
+      "example": "The first step should be small enough that it does not depend on perfect motivation."
+    },
+    {
+      "expression": "step",
+      "meaning": "핵심 표현",
+      "example": "The first step should be small enough that it does not depend on perfect motivation."
+    },
+    {
+      "expression": "attaching",
+      "meaning": "핵심 표현",
+      "example": "Attaching a new action to an existing routine makes it easier to remember."
+    }
+  ],
+  "sentence_interpretations": [
+    {
+      "section": "REPEATABLE ACTIONS",
+      "subheading": "A Habit That Lasts",
+      "sentence": "A habit becomes easier to keep when the action is simple enough to repeat every day.",
+      "translation": "습관은 매일 반복할 수 있을 만큼 행동이 간단할 때 더 쉽게 유지됩니다.",
+      "learning_note": "Focus on the highlighted phrase and its role in the sentence.",
+      "focus_terms": [
+        "becomes easier to keep",
+        "simple enough to",
+        "repeat every day"
+      ]
+    },
+    {
+      "section": "LONG-TERM CHANGE",
+      "subheading": "Consistency over Intensity",
+      "sentence": "Consistency matters more than intensity when we are building a lasting change.",
+      "translation": "지속적인 변화를 만들 때는 강도보다 꾸준함이 더 중요합니다.",
+      "learning_note": "Focus on the highlighted phrase and its role in the sentence.",
+      "focus_terms": [
+        "consistency matters",
+        "more than intensity",
+        "lasting change"
+      ]
+    },
+    {
+      "section": "REPEATABLE ACTIONS",
+      "subheading": "A Manageable First Step",
+      "sentence": "The first step should be small enough that it does not depend on perfect motivation.",
+      "translation": "첫 단계는 완벽한 의지에 의존하지 않을 만큼 작아야 합니다.",
+      "learning_note": "Focus on the highlighted phrase and its role in the sentence.",
+      "focus_terms": [
+        "the",
+        "first",
+        "step"
+      ]
+    },
+    {
+      "section": "REPEATABLE ACTIONS",
+      "subheading": "Connecting New Actions",
+      "sentence": "Attaching a new action to an existing routine makes it easier to remember.",
+      "translation": "새로운 행동을 기존 루틴에 연결하면 기억하기 쉬워집니다.",
+      "learning_note": "Focus on the highlighted phrase and its role in the sentence.",
+      "focus_terms": [
+        "attaching",
+        "a",
+        "new"
+      ]
+    },
+    {
+      "section": "REPEATABLE ACTIONS",
+      "subheading": "Tracking without Competition",
+      "sentence": "Tracking a habit can provide useful information without turning the routine into a competition.",
+      "translation": "습관을 기록하면 루틴을 경쟁으로 만들지 않고 유용한 정보를 얻을 수 있습니다.",
+      "learning_note": "Focus on the highlighted phrase and its role in the sentence.",
+      "focus_terms": [
+        "tracking",
+        "a",
+        "habit"
+      ]
+    },
+    {
+      "section": "REPEATABLE ACTIONS",
+      "subheading": "Recovering from Missed Days",
+      "sentence": "Missing one day is a signal to adjust the plan, not a reason to abandon it.",
+      "translation": "하루를 놓친 것은 계획을 포기할 이유가 아니라 조정할 신호입니다.",
+      "learning_note": "Focus on the highlighted phrase and its role in the sentence.",
+      "focus_terms": [
+        "missing",
+        "one",
+        "day"
+      ]
+    },
+    {
+      "section": "REPEATABLE ACTIONS",
+      "subheading": "A Flexible Routine",
+      "sentence": "A flexible routine can survive changes in schedule, energy, and unexpected events.",
+      "translation": "유연한 루틴은 일정과 에너지의 변화, 예상치 못한 사건을 견딜 수 있습니다.",
+      "learning_note": "Focus on the highlighted phrase and its role in the sentence.",
+      "focus_terms": [
+        "a",
+        "flexible",
+        "routine"
+      ]
+    },
+    {
+      "section": "REPEATABLE ACTIONS",
+      "subheading": "Visible Progress",
+      "sentence": "People are more likely to continue when progress is visible in a simple form.",
+      "translation": "진전이 간단한 형태로 보일 때 사람들은 계속할 가능성이 더 높습니다.",
+      "learning_note": "Focus on the highlighted phrase and its role in the sentence.",
+      "focus_terms": [
+        "people",
+        "are",
+        "more"
+      ]
+    },
+    {
+      "section": "REPEATABLE ACTIONS",
+      "subheading": "Supporting Life",
+      "sentence": "The purpose of a routine is to support a life, not to control every moment of it.",
+      "translation": "루틴의 목적은 삶의 모든 순간을 통제하는 것이 아니라 삶을 돕는 것입니다.",
+      "learning_note": "Focus on the highlighted phrase and its role in the sentence.",
+      "focus_terms": [
+        "the",
+        "purpose",
+        "of"
+      ]
+    },
+    {
+      "section": "REPEATABLE ACTIONS",
+      "subheading": "Evidence of Change",
+      "sentence": "Over time, repeated choices can become evidence that a person is capable of change.",
+      "translation": "시간이 지나면 반복된 선택은 사람이 변할 수 있다는 증거가 될 수 있습니다.",
+      "learning_note": "Focus on the highlighted phrase and its role in the sentence.",
+      "focus_terms": [
+        "over",
+        "time,",
+        "repeated"
+      ]
+    }
+  ],
+  "review_rules": [
+    {
+      "sentence_index": 1,
+      "concepts": [
+        {
+          "name": "Key structure",
+          "keywords": [
+            "becomes easier to keep",
+            "simple enough to"
+          ],
+          "wrong_patterns": [],
+          "feedback": "Use this phrase as one meaningful unit when translating."
+        }
+      ]
+    },
+    {
+      "sentence_index": 2,
+      "concepts": [
+        {
+          "name": "Key structure",
+          "keywords": [
+            "consistency matters",
+            "more than intensity"
+          ],
+          "wrong_patterns": [],
+          "feedback": "Use this phrase as one meaningful unit when translating."
+        }
+      ]
+    },
+    {
+      "sentence_index": 3,
+      "concepts": [
+        {
+          "name": "Key structure",
+          "keywords": [
+            "the",
+            "first"
+          ],
+          "wrong_patterns": [],
+          "feedback": "Use this phrase as one meaningful unit when translating."
+        }
+      ]
+    },
+    {
+      "sentence_index": 4,
+      "concepts": [
+        {
+          "name": "Key structure",
+          "keywords": [
+            "attaching",
+            "a"
+          ],
+          "wrong_patterns": [],
+          "feedback": "Use this phrase as one meaningful unit when translating."
+        }
+      ]
+    },
+    {
+      "sentence_index": 5,
+      "concepts": [
+        {
+          "name": "Key structure",
+          "keywords": [
+            "tracking",
+            "a"
+          ],
+          "wrong_patterns": [],
+          "feedback": "Use this phrase as one meaningful unit when translating."
+        }
+      ]
+    },
+    {
+      "sentence_index": 6,
+      "concepts": [
+        {
+          "name": "Key structure",
+          "keywords": [
+            "missing",
+            "one"
+          ],
+          "wrong_patterns": [],
+          "feedback": "Use this phrase as one meaningful unit when translating."
+        }
+      ]
+    },
+    {
+      "sentence_index": 7,
+      "concepts": [
+        {
+          "name": "Key structure",
+          "keywords": [
+            "a",
+            "flexible"
+          ],
+          "wrong_patterns": [],
+          "feedback": "Use this phrase as one meaningful unit when translating."
+        }
+      ]
+    },
+    {
+      "sentence_index": 8,
+      "concepts": [
+        {
+          "name": "Key structure",
+          "keywords": [
+            "people",
+            "are"
+          ],
+          "wrong_patterns": [],
+          "feedback": "Use this phrase as one meaningful unit when translating."
+        }
+      ]
+    },
+    {
+      "sentence_index": 9,
+      "concepts": [
+        {
+          "name": "Key structure",
+          "keywords": [
+            "the",
+            "purpose"
+          ],
+          "wrong_patterns": [],
+          "feedback": "Use this phrase as one meaningful unit when translating."
+        }
+      ]
+    },
+    {
+      "sentence_index": 10,
+      "concepts": [
+        {
+          "name": "Key structure",
+          "keywords": [
+            "over",
+            "time,"
+          ],
+          "wrong_patterns": [],
+          "feedback": "Use this phrase as one meaningful unit when translating."
+        }
+      ]
+    }
+  ],
+  "conversation_questions": [
+    {
+      "question": "How does small habits that last connect to your daily life?",
+      "sample_answer": "I can apply this idea by making one practical change this week.",
+      "coaching_point": "Use because or so to explain a reason and result."
+    },
+    {
+      "question": "Which idea in this lesson would you like to discuss?",
+      "sample_answer": "I would like to discuss the idea that has the clearest practical effect.",
+      "coaching_point": "Use would like to when sharing a preference."
+    },
+    {
+      "question": "What is one action you can take after reading?",
+      "sample_answer": "I can test one small action and review the result later.",
+      "coaching_point": "Use can plus the base verb for practical actions."
+    }
+  ],
+  "audio_script": "A habit becomes easier to keep when the action is simple enough to repeat every day. Consistency matters more than intensity when we are building a lasting change. The first step should be small enough that it does not depend on perfect motivation. Attaching a new action to an existing routine makes it easier to remember. Tracking a habit can provide useful information without turning the routine into a competition. Missing one day is a signal to adjust the plan, not a reason to abandon it. A flexible routine can survive changes in schedule, energy, and unexpected events. People are more likely to continue when progress is visible in a simple form. The purpose of a routine is to support a life, not to control every moment of it. Over time, repeated choices can become evidence that a person is capable of change.",
+  "metadata": {
+    "reading_time": "8 minutes",
+    "conversation_time": "10 minutes"
+  }
+}
