@@ -64,6 +64,8 @@ CONTENT_JSON_SCHEMA: dict[str, Any] = {
                     "focus_terms",
                 ],
                 "properties": {
+                    "section": {"type": "string"},
+                    "subheading": {"type": "string"},
                     "sentence": {"type": "string"},
                     "translation": {"type": "string"},
                     "learning_note": {"type": "string"},
@@ -166,6 +168,9 @@ def validate_content(data: Mapping[str, Any]) -> dict[str, Any]:
             raise ContentValidationError(f"sentence_interpretations[{index}] must be an object")
         for key in ("sentence", "translation", "learning_note"):
             _require_string(item.get(key), f"sentence_interpretations[{index}].{key}")
+        for key in ("section", "subheading"):
+            if key in item and item[key] is not None:
+                _require_string(item[key], f"sentence_interpretations[{index}].{key}")
         if not isinstance(item.get("focus_terms"), list):
             raise ContentValidationError(f"sentence_interpretations[{index}].focus_terms must be a list")
 

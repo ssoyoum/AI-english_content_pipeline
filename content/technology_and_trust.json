@@ -1,0 +1,356 @@
+{
+  "topic": "TECHNOLOGY",
+  "title": "Technology and Trust",
+  "article": [
+    {
+      "heading": "TRANSPARENT SYSTEMS",
+      "paragraph": "People trust a system more when they understand how it makes important decisions."
+    },
+    {
+      "heading": "CLEAR EXPLANATIONS",
+      "paragraph": "Clear explanations turn complex tools into services that people can use responsibly."
+    },
+    {
+      "heading": "TRANSPARENT SYSTEMS",
+      "paragraph": "Trust grows when a service explains its limits as clearly as its benefits. People need a way to question an automated decision when the result affects their lives. Transparent design shows which information was used and which information was left out. A reliable tool should make it possible to correct an error without starting over. Clear language can reduce fear when people are asked to try an unfamiliar system. Accountability matters because every useful technology still reflects human choices. The best explanation is not the longest one but the one that helps a person act. Trust becomes stronger when users can see how feedback changes the product."
+    }
+  ],
+  "vocabulary": [
+    {
+      "expression": "trust a system",
+      "meaning": "핵심 표현",
+      "example": "People trust a system more when they understand how it makes important decisions."
+    },
+    {
+      "expression": "when they understand",
+      "meaning": "핵심 표현",
+      "example": "People trust a system more when they understand how it makes important decisions."
+    },
+    {
+      "expression": "important decisions",
+      "meaning": "핵심 표현",
+      "example": "People trust a system more when they understand how it makes important decisions."
+    },
+    {
+      "expression": "clear explanations",
+      "meaning": "핵심 표현",
+      "example": "Clear explanations turn complex tools into services that people can use responsibly."
+    },
+    {
+      "expression": "complex tools",
+      "meaning": "핵심 표현",
+      "example": "Clear explanations turn complex tools into services that people can use responsibly."
+    },
+    {
+      "expression": "responsibly",
+      "meaning": "핵심 표현",
+      "example": "Clear explanations turn complex tools into services that people can use responsibly."
+    },
+    {
+      "expression": "trust",
+      "meaning": "핵심 표현",
+      "example": "Trust grows when a service explains its limits as clearly as its benefits."
+    },
+    {
+      "expression": "grows",
+      "meaning": "핵심 표현",
+      "example": "Trust grows when a service explains its limits as clearly as its benefits."
+    },
+    {
+      "expression": "when",
+      "meaning": "핵심 표현",
+      "example": "Trust grows when a service explains its limits as clearly as its benefits."
+    },
+    {
+      "expression": "people",
+      "meaning": "핵심 표현",
+      "example": "People need a way to question an automated decision when the result affects their lives."
+    }
+  ],
+  "sentence_interpretations": [
+    {
+      "section": "TRANSPARENT SYSTEMS",
+      "subheading": "Understanding Important Decisions",
+      "sentence": "People trust a system more when they understand how it makes important decisions.",
+      "translation": "사람들은 중요한 결정을 시스템이 어떻게 내리는지 이해할 때 그 시스템을 더 신뢰합니다.",
+      "learning_note": "Focus on the highlighted phrase and its role in the sentence.",
+      "focus_terms": [
+        "trust a system",
+        "when they understand",
+        "important decisions"
+      ]
+    },
+    {
+      "section": "CLEAR EXPLANATIONS",
+      "subheading": "Clear Explanations",
+      "sentence": "Clear explanations turn complex tools into services that people can use responsibly.",
+      "translation": "명확한 설명은 복잡한 도구를 사람들이 책임감 있게 사용할 수 있는 서비스로 바꿉니다.",
+      "learning_note": "Focus on the highlighted phrase and its role in the sentence.",
+      "focus_terms": [
+        "clear explanations",
+        "complex tools",
+        "responsibly"
+      ]
+    },
+    {
+      "section": "TRANSPARENT SYSTEMS",
+      "subheading": "Trust and Limitations",
+      "sentence": "Trust grows when a service explains its limits as clearly as its benefits.",
+      "translation": "서비스가 장점만큼 한계도 명확하게 설명할 때 신뢰가 커집니다.",
+      "learning_note": "Focus on the highlighted phrase and its role in the sentence.",
+      "focus_terms": [
+        "trust",
+        "grows",
+        "when"
+      ]
+    },
+    {
+      "section": "TRANSPARENT SYSTEMS",
+      "subheading": "Questioning Automated Decisions",
+      "sentence": "People need a way to question an automated decision when the result affects their lives.",
+      "translation": "결과가 삶에 영향을 줄 때 사람들은 자동화된 결정에 질문할 방법이 필요합니다.",
+      "learning_note": "Focus on the highlighted phrase and its role in the sentence.",
+      "focus_terms": [
+        "people",
+        "need",
+        "a"
+      ]
+    },
+    {
+      "section": "TRANSPARENT SYSTEMS",
+      "subheading": "Transparent Information",
+      "sentence": "Transparent design shows which information was used and which information was left out.",
+      "translation": "투명한 설계는 어떤 정보가 사용되었고 어떤 정보가 제외되었는지 보여 줍니다.",
+      "learning_note": "Focus on the highlighted phrase and its role in the sentence.",
+      "focus_terms": [
+        "transparent",
+        "design",
+        "shows"
+      ]
+    },
+    {
+      "section": "TRANSPARENT SYSTEMS",
+      "subheading": "Correcting Errors",
+      "sentence": "A reliable tool should make it possible to correct an error without starting over.",
+      "translation": "신뢰할 수 있는 도구는 처음부터 다시 시작하지 않고 오류를 수정할 수 있게 해야 합니다.",
+      "learning_note": "Focus on the highlighted phrase and its role in the sentence.",
+      "focus_terms": [
+        "a",
+        "reliable",
+        "tool"
+      ]
+    },
+    {
+      "section": "TRANSPARENT SYSTEMS",
+      "subheading": "Reducing Fear",
+      "sentence": "Clear language can reduce fear when people are asked to try an unfamiliar system.",
+      "translation": "명확한 언어는 사람들이 익숙하지 않은 시스템을 사용해 보라는 요청을 받을 때 두려움을 줄입니다.",
+      "learning_note": "Focus on the highlighted phrase and its role in the sentence.",
+      "focus_terms": [
+        "clear",
+        "language",
+        "can"
+      ]
+    },
+    {
+      "section": "TRANSPARENT SYSTEMS",
+      "subheading": "Human Accountability",
+      "sentence": "Accountability matters because every useful technology still reflects human choices.",
+      "translation": "유용한 기술도 인간의 선택을 반영하기 때문에 책임성이 중요합니다.",
+      "learning_note": "Focus on the highlighted phrase and its role in the sentence.",
+      "focus_terms": [
+        "accountability",
+        "matters",
+        "because"
+      ]
+    },
+    {
+      "section": "TRANSPARENT SYSTEMS",
+      "subheading": "Explanations that Enable Action",
+      "sentence": "The best explanation is not the longest one but the one that helps a person act.",
+      "translation": "가장 좋은 설명은 가장 긴 설명이 아니라 사람이 행동할 수 있게 하는 설명입니다.",
+      "learning_note": "Focus on the highlighted phrase and its role in the sentence.",
+      "focus_terms": [
+        "the",
+        "best",
+        "explanation"
+      ]
+    },
+    {
+      "section": "TRANSPARENT SYSTEMS",
+      "subheading": "Feedback and Trust",
+      "sentence": "Trust becomes stronger when users can see how feedback changes the product.",
+      "translation": "사용자가 피드백이 제품을 어떻게 바꾸는지 볼 수 있을 때 신뢰가 더 강해집니다.",
+      "learning_note": "Focus on the highlighted phrase and its role in the sentence.",
+      "focus_terms": [
+        "trust",
+        "becomes",
+        "stronger"
+      ]
+    }
+  ],
+  "review_rules": [
+    {
+      "sentence_index": 1,
+      "concepts": [
+        {
+          "name": "Key structure",
+          "keywords": [
+            "trust a system",
+            "when they understand"
+          ],
+          "wrong_patterns": [],
+          "feedback": "Use this phrase as one meaningful unit when translating."
+        }
+      ]
+    },
+    {
+      "sentence_index": 2,
+      "concepts": [
+        {
+          "name": "Key structure",
+          "keywords": [
+            "clear explanations",
+            "complex tools"
+          ],
+          "wrong_patterns": [],
+          "feedback": "Use this phrase as one meaningful unit when translating."
+        }
+      ]
+    },
+    {
+      "sentence_index": 3,
+      "concepts": [
+        {
+          "name": "Key structure",
+          "keywords": [
+            "trust",
+            "grows"
+          ],
+          "wrong_patterns": [],
+          "feedback": "Use this phrase as one meaningful unit when translating."
+        }
+      ]
+    },
+    {
+      "sentence_index": 4,
+      "concepts": [
+        {
+          "name": "Key structure",
+          "keywords": [
+            "people",
+            "need"
+          ],
+          "wrong_patterns": [],
+          "feedback": "Use this phrase as one meaningful unit when translating."
+        }
+      ]
+    },
+    {
+      "sentence_index": 5,
+      "concepts": [
+        {
+          "name": "Key structure",
+          "keywords": [
+            "transparent",
+            "design"
+          ],
+          "wrong_patterns": [],
+          "feedback": "Use this phrase as one meaningful unit when translating."
+        }
+      ]
+    },
+    {
+      "sentence_index": 6,
+      "concepts": [
+        {
+          "name": "Key structure",
+          "keywords": [
+            "a",
+            "reliable"
+          ],
+          "wrong_patterns": [],
+          "feedback": "Use this phrase as one meaningful unit when translating."
+        }
+      ]
+    },
+    {
+      "sentence_index": 7,
+      "concepts": [
+        {
+          "name": "Key structure",
+          "keywords": [
+            "clear",
+            "language"
+          ],
+          "wrong_patterns": [],
+          "feedback": "Use this phrase as one meaningful unit when translating."
+        }
+      ]
+    },
+    {
+      "sentence_index": 8,
+      "concepts": [
+        {
+          "name": "Key structure",
+          "keywords": [
+            "accountability",
+            "matters"
+          ],
+          "wrong_patterns": [],
+          "feedback": "Use this phrase as one meaningful unit when translating."
+        }
+      ]
+    },
+    {
+      "sentence_index": 9,
+      "concepts": [
+        {
+          "name": "Key structure",
+          "keywords": [
+            "the",
+            "best"
+          ],
+          "wrong_patterns": [],
+          "feedback": "Use this phrase as one meaningful unit when translating."
+        }
+      ]
+    },
+    {
+      "sentence_index": 10,
+      "concepts": [
+        {
+          "name": "Key structure",
+          "keywords": [
+            "trust",
+            "becomes"
+          ],
+          "wrong_patterns": [],
+          "feedback": "Use this phrase as one meaningful unit when translating."
+        }
+      ]
+    }
+  ],
+  "conversation_questions": [
+    {
+      "question": "How does technology and trust connect to your daily life?",
+      "sample_answer": "I can apply this idea by making one practical change this week.",
+      "coaching_point": "Use because or so to explain a reason and result."
+    },
+    {
+      "question": "Which idea in this lesson would you like to discuss?",
+      "sample_answer": "I would like to discuss the idea that has the clearest practical effect.",
+      "coaching_point": "Use would like to when sharing a preference."
+    },
+    {
+      "question": "What is one action you can take after reading?",
+      "sample_answer": "I can test one small action and review the result later.",
+      "coaching_point": "Use can plus the base verb for practical actions."
+    }
+  ],
+  "audio_script": "People trust a system more when they understand how it makes important decisions. Clear explanations turn complex tools into services that people can use responsibly. Trust grows when a service explains its limits as clearly as its benefits. People need a way to question an automated decision when the result affects their lives. Transparent design shows which information was used and which information was left out. A reliable tool should make it possible to correct an error without starting over. Clear language can reduce fear when people are asked to try an unfamiliar system. Accountability matters because every useful technology still reflects human choices. The best explanation is not the longest one but the one that helps a person act. Trust becomes stronger when users can see how feedback changes the product.",
+  "metadata": {
+    "reading_time": "8 minutes",
+    "conversation_time": "10 minutes"
+  }
+}

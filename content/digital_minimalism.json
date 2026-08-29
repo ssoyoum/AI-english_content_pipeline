@@ -1,251 +1,356 @@
 {
-  "topic": "Digital Minimalism",
-  "title": "Digital Minimalism and the Problem of Too Much Choice",
+  "topic": "DIGITAL HABITS",
+  "title": "Digital Minimalism and Attention",
   "article": [
     {
-      "heading": "Choices and Stress",
-      "paragraph": "In the modern world, people are surrounded by an enormous number of choices. From streaming services and online shopping to social media and mobile applications, we are constantly required to decide what to watch, buy, read, or follow. Although having more options may seem like a sign of freedom, too much choice can actually create stress and reduce our overall satisfaction."
+      "heading": "FOCUS AND ATTENTION",
+      "paragraph": "Digital minimalism asks us to use technology with intention rather than by default."
     },
     {
-      "heading": "What Is Digital Minimalism?",
-      "paragraph": "For this reason, digital minimalism has become increasingly important. Digital minimalism is the idea of using technology in a more intentional and controlled way. Instead of downloading every new app or spending hours scrolling through endless content, digital minimalists choose only the tools that provide real value to their lives. This approach allows people to focus on what is genuinely important rather than being distracted by unnecessary information."
+      "heading": "A QUIETER ROUTINE",
+      "paragraph": "Short periods away from notifications can restore attention and reduce mental noise."
     },
     {
-      "heading": "Decision Fatigue",
-      "paragraph": "One major problem caused by excessive choice is decision fatigue. When people are exposed to hundreds of products, videos, or opinions every day, making even simple decisions can become exhausting. For example, choosing a film on a streaming platform may take longer than actually watching it because there are too many options. As a result, people may feel dissatisfied with their final choice and continue wondering whether another option would have been better."
-    },
-    {
-      "heading": "Creating Digital Boundaries",
-      "paragraph": "Digital minimalism can help solve this problem by reducing unnecessary decisions. People can limit the number of applications they use, turn off non-essential notifications, and set specific times for checking social media. By creating these boundaries, they can save mental energy and improve their ability to concentrate."
-    },
-    {
-      "heading": "Using Technology with Intention",
-      "paragraph": "However, digital minimalism does not mean completely rejecting technology. Technology remains extremely useful for education, communication, and work. The key is to control technology rather than allowing it to control our attention. In my view, learning to live with fewer digital distractions is becoming an essential skill. By reducing the overload of choice, people can make clearer decisions, enjoy their free time more fully, and focus on the things that truly matter."
+      "heading": "FOCUS AND ATTENTION",
+      "paragraph": "A focused digital environment makes it easier to notice what deserves our attention. Before adding a new tool, people can ask whether it solves a real and recurring problem. Turning off unnecessary alerts creates a quiet boundary around important work. Choosing fewer sources can help us read more carefully and remember what we learn. Intentional use does not reject technology; it gives technology a clear purpose. A device-free transition between tasks can protect the quality of our concentration. The less attention we spend on low-value choices, the more energy remains for creative work. Digital minimalism is a practice that can be adjusted as our priorities change."
     }
   ],
   "vocabulary": [
     {
-      "expression": "be surrounded by",
-      "meaning": "~에 둘러싸여 있다",
-      "example": "People are surrounded by an enormous number of choices."
+      "expression": "digital minimalism",
+      "meaning": "핵심 표현",
+      "example": "Digital minimalism asks us to use technology with intention rather than by default."
     },
     {
-      "expression": "a sign of freedom",
-      "meaning": "자유의 상징",
-      "example": "Having more options may seem like a sign of freedom."
+      "expression": "with intention",
+      "meaning": "핵심 표현",
+      "example": "Digital minimalism asks us to use technology with intention rather than by default."
     },
     {
-      "expression": "overall satisfaction",
-      "meaning": "전반적인 만족도",
-      "example": "Too much choice can reduce our overall satisfaction."
+      "expression": "rather than by default",
+      "meaning": "핵심 표현",
+      "example": "Digital minimalism asks us to use technology with intention rather than by default."
     },
     {
-      "expression": "in an intentional and controlled way",
-      "meaning": "의도적이고 통제된 방식으로",
-      "example": "Use technology in an intentional and controlled way."
+      "expression": "periods away from",
+      "meaning": "핵심 표현",
+      "example": "Short periods away from notifications can restore attention and reduce mental noise."
     },
     {
-      "expression": "provide real value",
-      "meaning": "실질적인 가치를 제공하다",
-      "example": "Choose only the tools that provide real value."
+      "expression": "restore attention",
+      "meaning": "핵심 표현",
+      "example": "Short periods away from notifications can restore attention and reduce mental noise."
     },
     {
-      "expression": "decision fatigue",
-      "meaning": "결정 피로",
-      "example": "Excessive choice can cause decision fatigue."
+      "expression": "reduce mental noise",
+      "meaning": "핵심 표현",
+      "example": "Short periods away from notifications can restore attention and reduce mental noise."
     },
     {
-      "expression": "be exposed to",
-      "meaning": "~에 노출되다",
-      "example": "People are exposed to hundreds of opinions every day."
+      "expression": "a",
+      "meaning": "핵심 표현",
+      "example": "A focused digital environment makes it easier to notice what deserves our attention."
     },
     {
-      "expression": "set specific times for",
-      "meaning": "~을 위한 특정 시간을 정하다",
-      "example": "Set specific times for checking social media."
+      "expression": "focused",
+      "meaning": "핵심 표현",
+      "example": "A focused digital environment makes it easier to notice what deserves our attention."
     },
     {
-      "expression": "allow A to control B",
-      "meaning": "A가 B를 통제하도록 내버려 두다",
-      "example": "Do not allow technology to control your attention."
+      "expression": "digital",
+      "meaning": "핵심 표현",
+      "example": "A focused digital environment makes it easier to notice what deserves our attention."
     },
     {
-      "expression": "the overload of choice",
-      "meaning": "선택의 과부하",
-      "example": "Reducing the overload of choice can improve focus."
+      "expression": "before",
+      "meaning": "핵심 표현",
+      "example": "Before adding a new tool, people can ask whether it solves a real and recurring problem."
     }
   ],
   "sentence_interpretations": [
     {
-      "sentence": "In the modern world, people are surrounded by an enormous number of choices.",
-      "translation": "현대 사회에서 사람들은 엄청나게 많은 선택지에 둘러싸여 있다.",
-      "learning_note": "be surrounded by는 ‘~에 둘러싸여 있다’라는 수동태 표현입니다.",
-      "focus_terms": ["modern world", "surrounded by", "enormous number of choices"]
+      "section": "FOCUS AND ATTENTION",
+      "subheading": "Intentional Technology Use",
+      "sentence": "Digital minimalism asks us to use technology with intention rather than by default.",
+      "translation": "디지털 미니멀리즘은 기술을 무조건 사용하는 대신 의도적으로 사용하라고 말합니다.",
+      "learning_note": "Focus on the highlighted phrase and its role in the sentence.",
+      "focus_terms": [
+        "digital minimalism",
+        "with intention",
+        "rather than by default"
+      ]
     },
     {
-      "sentence": "From streaming services and online shopping to social media and mobile applications, we are constantly required to decide what to watch, buy, read, or follow.",
-      "translation": "스트리밍 서비스와 온라인 쇼핑부터 소셜 미디어와 모바일 애플리케이션까지, 우리는 무엇을 보고, 사고, 읽고, 팔로우할지를 끊임없이 결정해야 한다.",
-      "learning_note": "From A to B는 범위를 나타내며, what to watch와 같은 의문사+to부정사는 ‘무엇을 ~할지’를 의미합니다.",
-      "focus_terms": ["From", "to", "constantly required", "what to watch", "buy", "read", "follow"]
+      "section": "A QUIETER ROUTINE",
+      "subheading": "A Quieter Digital Routine",
+      "sentence": "Short periods away from notifications can restore attention and reduce mental noise.",
+      "translation": "알림에서 잠시 벗어나는 시간은 집중력을 회복하고 정신적인 소음을 줄여 줍니다.",
+      "learning_note": "Focus on the highlighted phrase and its role in the sentence.",
+      "focus_terms": [
+        "periods away from",
+        "restore attention",
+        "reduce mental noise"
+      ]
     },
     {
-      "sentence": "Although having more options may seem like a sign of freedom, too much choice can actually create stress and reduce our overall satisfaction.",
-      "translation": "더 많은 선택지가 자유의 상징처럼 보일 수 있지만, 지나치게 많은 선택은 오히려 스트레스를 만들고 전반적인 만족도를 낮출 수 있다.",
-      "learning_note": "Although는 양보를 나타내며, may seem like A는 ‘A처럼 보일 수 있다’라는 뜻입니다.",
-      "focus_terms": ["Although", "more options", "a sign of freedom", "too much choice", "reduce"]
+      "section": "FOCUS AND ATTENTION",
+      "subheading": "Protecting Attention",
+      "sentence": "A focused digital environment makes it easier to notice what deserves our attention.",
+      "translation": "집중할 수 있는 디지털 환경은 무엇에 주의를 기울여야 하는지 알아차리기 쉽게 합니다.",
+      "learning_note": "Focus on the highlighted phrase and its role in the sentence.",
+      "focus_terms": [
+        "a",
+        "focused",
+        "digital"
+      ]
     },
     {
-      "sentence": "For this reason, digital minimalism has become increasingly important.",
-      "translation": "이러한 이유로 디지털 미니멀리즘은 점점 더 중요해지고 있다.",
-      "learning_note": "For this reason은 앞의 내용을 원인으로 받아 ‘이러한 이유로’라고 연결합니다.",
-      "focus_terms": ["For this reason", "digital minimalism", "increasingly important"]
+      "section": "FOCUS AND ATTENTION",
+      "subheading": "Choosing Useful Tools",
+      "sentence": "Before adding a new tool, people can ask whether it solves a real and recurring problem.",
+      "translation": "새로운 도구를 추가하기 전에 실제로 반복되는 문제를 해결하는지 물어볼 수 있습니다.",
+      "learning_note": "Focus on the highlighted phrase and its role in the sentence.",
+      "focus_terms": [
+        "before",
+        "adding",
+        "a"
+      ]
     },
     {
-      "sentence": "Digital minimalism is the idea of using technology in a more intentional and controlled way.",
-      "translation": "디지털 미니멀리즘은 기술을 보다 의도적이고 통제된 방식으로 사용하는 것을 의미한다.",
-      "learning_note": "the idea of -ing는 ‘~하는 생각 또는 개념’이라는 정의 표현입니다.",
-      "focus_terms": ["the idea of", "using technology", "intentional", "controlled way"]
+      "section": "FOCUS AND ATTENTION",
+      "subheading": "Boundaries Around Work",
+      "sentence": "Turning off unnecessary alerts creates a quiet boundary around important work.",
+      "translation": "불필요한 알림을 끄면 중요한 일 주변에 조용한 경계가 생깁니다.",
+      "learning_note": "Focus on the highlighted phrase and its role in the sentence.",
+      "focus_terms": [
+        "turning",
+        "off",
+        "unnecessary"
+      ]
     },
     {
-      "sentence": "Instead of downloading every new app or spending hours scrolling through endless content, digital minimalists choose only the tools that provide real value to their lives.",
-      "translation": "새로운 앱을 모두 다운로드하거나 끝없는 콘텐츠를 몇 시간씩 보는 대신, 디지털 미니멀리스트들은 자신의 삶에 실제로 가치가 있는 도구만 선택한다.",
-      "learning_note": "Instead of -ing는 ‘~하는 대신’이며, that provide는 tools를 수식하는 관계대명사절입니다.",
-      "focus_terms": ["Instead of", "every new app", "spending hours", "only the tools", "provide real value"]
+      "section": "FOCUS AND ATTENTION",
+      "subheading": "Reading with Focus",
+      "sentence": "Choosing fewer sources can help us read more carefully and remember what we learn.",
+      "translation": "더 적은 자료를 선택하면 더 주의 깊게 읽고 배운 것을 기억하는 데 도움이 됩니다.",
+      "learning_note": "Focus on the highlighted phrase and its role in the sentence.",
+      "focus_terms": [
+        "choosing",
+        "fewer",
+        "sources"
+      ]
     },
     {
-      "sentence": "This approach allows people to focus on what is genuinely important rather than being distracted by unnecessary information.",
-      "translation": "이러한 방식은 사람들이 불필요한 정보에 방해받기보다 진정으로 중요한 것에 집중할 수 있도록 해준다.",
-      "learning_note": "allow A to do는 ‘A가 ~하도록 허용하다’이며, rather than은 ‘~하기보다’라는 대조를 만듭니다.",
-      "focus_terms": ["allows people to focus", "genuinely important", "rather than", "distracted by"]
+      "section": "FOCUS AND ATTENTION",
+      "subheading": "Technology with Purpose",
+      "sentence": "Intentional use does not reject technology; it gives technology a clear purpose.",
+      "translation": "의도적인 사용은 기술을 거부하는 것이 아니라 기술에 분명한 목적을 부여합니다.",
+      "learning_note": "Focus on the highlighted phrase and its role in the sentence.",
+      "focus_terms": [
+        "intentional",
+        "use",
+        "does"
+      ]
     },
     {
-      "sentence": "One major problem caused by excessive choice is decision fatigue.",
-      "translation": "과도한 선택이 만들어내는 대표적인 문제 중 하나는 결정 피로이다.",
-      "learning_note": "caused by excessive choice는 problem을 뒤에서 수식하는 과거분사구입니다.",
-      "focus_terms": ["One major problem", "caused by", "excessive choice", "decision fatigue"]
+      "section": "FOCUS AND ATTENTION",
+      "subheading": "Device-Free Transitions",
+      "sentence": "A device-free transition between tasks can protect the quality of our concentration.",
+      "translation": "일 사이에 기기 없이 전환하는 시간은 집중의 질을 보호할 수 있습니다.",
+      "learning_note": "Focus on the highlighted phrase and its role in the sentence.",
+      "focus_terms": [
+        "a",
+        "device-free",
+        "transition"
+      ]
     },
     {
-      "sentence": "When people are exposed to hundreds of products, videos, or opinions every day, making even simple decisions can become exhausting.",
-      "translation": "사람들이 매일 수백 개의 상품, 영상, 의견에 노출되면 간단한 결정을 내리는 것조차 피곤해질 수 있다.",
-      "learning_note": "be exposed to는 ‘~에 노출되다’이며, making은 동명사 주어입니다.",
-      "focus_terms": ["When", "exposed to", "hundreds of", "even simple decisions", "exhausting"]
+      "section": "FOCUS AND ATTENTION",
+      "subheading": "Energy for Creative Work",
+      "sentence": "The less attention we spend on low-value choices, the more energy remains for creative work.",
+      "translation": "가치가 낮은 선택에 쓰는 주의가 적을수록 창의적인 일에 더 많은 에너지가 남습니다.",
+      "learning_note": "Focus on the highlighted phrase and its role in the sentence.",
+      "focus_terms": [
+        "the",
+        "less",
+        "attention"
+      ]
     },
     {
-      "sentence": "For example, choosing a film on a streaming platform may take longer than actually watching it because there are too many options.",
-      "translation": "예를 들어, 스트리밍 플랫폼에서는 선택지가 너무 많아 영화를 실제로 보는 시간보다 고르는 시간이 더 오래 걸릴 수도 있다.",
-      "learning_note": "take longer than은 ‘~보다 더 오래 걸리다’이며, choosing이 문장의 주어입니다.",
-      "focus_terms": ["For example", "choosing a film", "take longer than", "actually watching", "too many options"]
+      "section": "FOCUS AND ATTENTION",
+      "subheading": "Adapting Digital Habits",
+      "sentence": "Digital minimalism is a practice that can be adjusted as our priorities change.",
+      "translation": "디지털 미니멀리즘은 우선순위가 바뀔 때 조정할 수 있는 실천입니다.",
+      "learning_note": "Focus on the highlighted phrase and its role in the sentence.",
+      "focus_terms": [
+        "digital",
+        "minimalism",
+        "is"
+      ]
+    }
+  ],
+  "review_rules": [
+    {
+      "sentence_index": 1,
+      "concepts": [
+        {
+          "name": "Key structure",
+          "keywords": [
+            "digital minimalism",
+            "with intention"
+          ],
+          "wrong_patterns": [],
+          "feedback": "Use this phrase as one meaningful unit when translating."
+        }
+      ]
     },
     {
-      "sentence": "As a result, people may feel dissatisfied with their final choice and continue wondering whether another option would have been better.",
-      "translation": "그 결과, 사람들은 자신의 최종 선택에 만족하지 못하고 다른 선택이 더 나았을지 계속 고민할 수 있다.",
-      "learning_note": "whether another option would have been better는 ‘다른 선택이 더 나았을지’라는 간접의문문입니다.",
-      "focus_terms": ["As a result", "dissatisfied with", "continue wondering", "would have been better"]
+      "sentence_index": 2,
+      "concepts": [
+        {
+          "name": "Key structure",
+          "keywords": [
+            "periods away from",
+            "restore attention"
+          ],
+          "wrong_patterns": [],
+          "feedback": "Use this phrase as one meaningful unit when translating."
+        }
+      ]
     },
     {
-      "sentence": "Digital minimalism can help solve this problem by reducing unnecessary decisions.",
-      "translation": "디지털 미니멀리즘은 불필요한 결정을 줄임으로써 이러한 문제를 해결하는 데 도움을 줄 수 있다.",
-      "learning_note": "by -ing는 ‘~함으로써’라는 수단을 나타냅니다.",
-      "focus_terms": ["can help solve", "by reducing", "unnecessary decisions"]
+      "sentence_index": 3,
+      "concepts": [
+        {
+          "name": "Key structure",
+          "keywords": [
+            "a",
+            "focused"
+          ],
+          "wrong_patterns": [],
+          "feedback": "Use this phrase as one meaningful unit when translating."
+        }
+      ]
     },
     {
-      "sentence": "People can limit the number of applications they use, turn off non-essential notifications, and set specific times for checking social media.",
-      "translation": "사람들은 사용하는 애플리케이션의 수를 제한하고, 중요하지 않은 알림을 끄며, 소셜 미디어를 확인하는 시간을 정할 수 있다.",
-      "learning_note": "limit, turn off, set이 and로 연결된 병렬 구조입니다.",
-      "focus_terms": ["limit the number", "turn off", "non-essential notifications", "set specific times"]
+      "sentence_index": 4,
+      "concepts": [
+        {
+          "name": "Key structure",
+          "keywords": [
+            "before",
+            "adding"
+          ],
+          "wrong_patterns": [],
+          "feedback": "Use this phrase as one meaningful unit when translating."
+        }
+      ]
     },
     {
-      "sentence": "By creating these boundaries, they can save mental energy and improve their ability to concentrate.",
-      "translation": "이러한 경계를 만들면 정신적 에너지를 절약하고 집중력을 향상시킬 수 있다.",
-      "learning_note": "By creating these boundaries는 ‘이러한 경계를 만듦으로써’라는 방법을 나타냅니다.",
-      "focus_terms": ["By creating", "these boundaries", "save mental energy", "ability to concentrate"]
+      "sentence_index": 5,
+      "concepts": [
+        {
+          "name": "Key structure",
+          "keywords": [
+            "turning",
+            "off"
+          ],
+          "wrong_patterns": [],
+          "feedback": "Use this phrase as one meaningful unit when translating."
+        }
+      ]
     },
     {
-      "sentence": "However, digital minimalism does not mean completely rejecting technology.",
-      "translation": "하지만 디지털 미니멀리즘이 기술을 완전히 거부한다는 뜻은 아니다.",
-      "learning_note": "does not mean -ing는 ‘~한다는 뜻은 아니다’라는 표현입니다.",
-      "focus_terms": ["However", "does not mean", "completely rejecting technology"]
+      "sentence_index": 6,
+      "concepts": [
+        {
+          "name": "Key structure",
+          "keywords": [
+            "choosing",
+            "fewer"
+          ],
+          "wrong_patterns": [],
+          "feedback": "Use this phrase as one meaningful unit when translating."
+        }
+      ]
     },
     {
-      "sentence": "Technology remains extremely useful for education, communication, and work.",
-      "translation": "기술은 여전히 교육, 의사소통, 업무에 매우 유용하다.",
-      "learning_note": "remain + 형용사는 ‘여전히 ~한 상태로 있다’라는 뜻입니다.",
-      "focus_terms": ["remains", "extremely useful", "education", "communication", "work"]
+      "sentence_index": 7,
+      "concepts": [
+        {
+          "name": "Key structure",
+          "keywords": [
+            "intentional",
+            "use"
+          ],
+          "wrong_patterns": [],
+          "feedback": "Use this phrase as one meaningful unit when translating."
+        }
+      ]
     },
     {
-      "sentence": "The key is to control technology rather than allowing it to control our attention.",
-      "translation": "핵심은 기술이 우리의 관심을 통제하도록 두는 것이 아니라 우리가 기술을 통제하는 것이다.",
-      "learning_note": "rather than은 두 행동을 대조하며, allow A to control B는 ‘A가 B를 통제하도록 내버려 두다’입니다.",
-      "focus_terms": ["The key is", "to control technology", "rather than", "allowing it to control", "our attention"]
+      "sentence_index": 8,
+      "concepts": [
+        {
+          "name": "Key structure",
+          "keywords": [
+            "a",
+            "device-free"
+          ],
+          "wrong_patterns": [],
+          "feedback": "Use this phrase as one meaningful unit when translating."
+        }
+      ]
     },
     {
-      "sentence": "In my view, learning to live with fewer digital distractions is becoming an essential skill.",
-      "translation": "내 생각에는 디지털 방해 요소를 줄이며 살아가는 법을 배우는 것이 점점 더 필수적인 능력이 되고 있다.",
-      "learning_note": "learning to live는 동명사 주어이며, fewer는 셀 수 있는 명사의 수가 더 적다는 뜻입니다.",
-      "focus_terms": ["In my view", "learning to live", "fewer digital distractions", "essential skill"]
+      "sentence_index": 9,
+      "concepts": [
+        {
+          "name": "Key structure",
+          "keywords": [
+            "the",
+            "less"
+          ],
+          "wrong_patterns": [],
+          "feedback": "Use this phrase as one meaningful unit when translating."
+        }
+      ]
     },
     {
-      "sentence": "By reducing the overload of choice, people can make clearer decisions, enjoy their free time more fully, and focus on the things that truly matter.",
-      "translation": "선택의 과부하를 줄이면 사람들은 더 명확한 결정을 내리고, 여가 시간을 더욱 충실하게 즐기며, 진정으로 중요한 것에 집중할 수 있다.",
-      "learning_note": "make, enjoy, focus가 and로 연결된 병렬 구조이며, that truly matter는 things를 수식합니다.",
-      "focus_terms": ["By reducing", "overload of choice", "clearer decisions", "more fully", "truly matter"]
+      "sentence_index": 10,
+      "concepts": [
+        {
+          "name": "Key structure",
+          "keywords": [
+            "digital",
+            "minimalism"
+          ],
+          "wrong_patterns": [],
+          "feedback": "Use this phrase as one meaningful unit when translating."
+        }
+      ]
     }
   ],
   "conversation_questions": [
     {
-      "question": "How does having too many choices affect your daily life?",
-      "sample_answer": "Having too many choices can make simple decisions exhausting, especially when I choose something to watch online.",
-      "coaching_point": "Use can make + object + adjective to describe an effect."
+      "question": "How does digital minimalism and attention connect to your daily life?",
+      "sample_answer": "I can apply this idea by making one practical change this week.",
+      "coaching_point": "Use because or so to explain a reason and result."
     },
     {
-      "question": "What digital tools provide real value to your life?",
-      "sample_answer": "A calendar app and a note-taking app provide real value because they help me organize my work.",
-      "coaching_point": "Use because to explain why a tool is valuable."
+      "question": "Which idea in this lesson would you like to discuss?",
+      "sample_answer": "I would like to discuss the idea that has the clearest practical effect.",
+      "coaching_point": "Use would like to when sharing a preference."
     },
     {
-      "question": "What is one digital boundary you would like to create?",
-      "sample_answer": "I would like to turn off non-essential notifications and check social media only twice a day.",
-      "coaching_point": "Use would like to when describing a goal or preferred change."
+      "question": "What is one action you can take after reading?",
+      "sample_answer": "I can test one small action and review the result later.",
+      "coaching_point": "Use can plus the base verb for practical actions."
     }
   ],
-  "audio_script": "In the modern world, people are surrounded by an enormous number of choices. From streaming services and online shopping to social media and mobile applications, we are constantly required to decide what to watch, buy, read, or follow. Although having more options may seem like a sign of freedom, too much choice can actually create stress and reduce our overall satisfaction. For this reason, digital minimalism has become increasingly important. Digital minimalism is the idea of using technology in a more intentional and controlled way. Instead of downloading every new app or spending hours scrolling through endless content, digital minimalists choose only the tools that provide real value to their lives. This approach allows people to focus on what is genuinely important rather than being distracted by unnecessary information. One major problem caused by excessive choice is decision fatigue. When people are exposed to hundreds of products, videos, or opinions every day, making even simple decisions can become exhausting. For example, choosing a film on a streaming platform may take longer than actually watching it because there are too many options. As a result, people may feel dissatisfied with their final choice and continue wondering whether another option would have been better. Digital minimalism can help solve this problem by reducing unnecessary decisions. People can limit the number of applications they use, turn off non-essential notifications, and set specific times for checking social media. By creating these boundaries, they can save mental energy and improve their ability to concentrate. However, digital minimalism does not mean completely rejecting technology. Technology remains extremely useful for education, communication, and work. The key is to control technology rather than allowing it to control our attention. In my view, learning to live with fewer digital distractions is becoming an essential skill. By reducing the overload of choice, people can make clearer decisions, enjoy their free time more fully, and focus on the things that truly matter.",
+  "audio_script": "Digital minimalism asks us to use technology with intention rather than by default. Short periods away from notifications can restore attention and reduce mental noise. A focused digital environment makes it easier to notice what deserves our attention. Before adding a new tool, people can ask whether it solves a real and recurring problem. Turning off unnecessary alerts creates a quiet boundary around important work. Choosing fewer sources can help us read more carefully and remember what we learn. Intentional use does not reject technology; it gives technology a clear purpose. A device-free transition between tasks can protect the quality of our concentration. The less attention we spend on low-value choices, the more energy remains for creative work. Digital minimalism is a practice that can be adjusted as our priorities change.",
   "metadata": {
     "reading_time": "8 minutes",
     "conversation_time": "10 minutes"
-  },
-  "audio_practice": {
-    "difficult_sentences": [
-      "From streaming services and online shopping to social media and mobile applications, we are constantly required to decide what to watch, buy, read, or follow.",
-      "Instead of downloading every new app or spending hours scrolling through endless content, digital minimalists choose only the tools that provide real value to their lives.",
-      "For example, choosing a film on a streaming platform may take longer than actually watching it because there are too many options."
-    ],
-    "difficult_words": [
-      "satisfaction",
-      "intentional",
-      "notifications",
-      "communication",
-      "surrounded"
-    ]
-  },
-  "review_rules": [
-    {"sentence_index": 1, "concepts": [{"name": "선택지가 매우 많음", "keywords": ["많은", "엄청", "수많은", "선택"], "wrong_patterns": ["선택지가 없다"], "feedback": "be surrounded by는 ‘~에 둘러싸여 있다’입니다."}]},
-    {"sentence_index": 2, "concepts": [{"name": "끊임없이 결정해야 함", "keywords": ["끊임없이", "계속", "결정", "정해야"], "wrong_patterns": ["결정할 필요가 없다"], "feedback": "what to watch, buy, read, or follow는 ‘무엇을 ~할지’입니다."}]},
-    {"sentence_index": 3, "concepts": [{"name": "많은 선택이 스트레스와 불만족을 만듦", "keywords": ["스트레스", "만족도", "낮", "선택지"], "wrong_patterns": ["항상 만족", "스트레스가 없다"], "feedback": "Although는 앞뒤 내용을 양보·대조합니다."}]},
-    {"sentence_index": 4, "concepts": [{"name": "디지털 미니멀리즘의 중요성 증가", "keywords": ["디지털 미니멀리즘", "점점", "중요"], "wrong_patterns": [], "feedback": "For this reason은 앞 문장의 결과를 연결합니다."}]},
-    {"sentence_index": 5, "concepts": [{"name": "의도적이고 통제된 기술 사용", "keywords": ["의도", "통제", "기술", "사용"], "wrong_patterns": ["무조건 사용", "통제하지 않"], "feedback": "the idea of using은 ‘사용하는 개념’이라는 정의입니다."}]},
-    {"sentence_index": 6, "concepts": [{"name": "가치 있는 도구만 선택", "keywords": ["가치", "도구", "선택"], "wrong_patterns": ["모든 앱", "무조건 다운로드"], "feedback": "Instead of는 ‘~하는 대신’입니다."}]},
-    {"sentence_index": 7, "concepts": [{"name": "중요한 것에 집중", "keywords": ["중요", "집중"], "wrong_patterns": ["불필요한 정보에 집중"], "feedback": "rather than being distracted는 ‘방해받기보다’입니다."}]},
-    {"sentence_index": 8, "concepts": [{"name": "결정 피로", "keywords": ["결정 피로", "피로", "과도한 선택"], "wrong_patterns": ["결정이 쉬워짐"], "feedback": "caused by excessive choice는 문제의 원인을 설명합니다."}]},
-    {"sentence_index": 9, "concepts": [{"name": "많은 정보에 노출되면 결정이 피곤함", "keywords": ["노출", "매일", "간단한 결정", "피곤"], "wrong_patterns": ["결정이 쉬워짐"], "feedback": "be exposed to는 ‘~에 노출되다’입니다."}]},
-    {"sentence_index": 10, "concepts": [{"name": "고르는 시간이 시청 시간보다 길어질 수 있음", "keywords": ["고르", "보는 시간", "오래", "선택지"], "wrong_patterns": ["바로 고름"], "feedback": "take longer than은 ‘~보다 더 오래 걸리다’입니다."}]},
-    {"sentence_index": 11, "concepts": [{"name": "최종 선택에 불만족하고 다른 선택을 고민함", "keywords": ["불만", "만족하지", "다른 선택", "고민"], "wrong_patterns": ["완전히 만족", "고민하지 않"], "feedback": "whether another option would have been better는 과거의 다른 가능성을 고민하는 표현입니다."}]},
-    {"sentence_index": 12, "concepts": [{"name": "불필요한 결정을 줄여 문제를 해결", "keywords": ["불필요한", "결정", "줄", "해결"], "wrong_patterns": ["결정을 늘"], "feedback": "by reducing은 ‘줄임으로써’라는 방법을 나타냅니다."}]},
-    {"sentence_index": 13, "concepts": [{"name": "앱·알림·소셜미디어 사용에 경계 설정", "keywords": ["제한", "알림", "끄", "시간", "소셜 미디어"], "wrong_patterns": ["모든 알림을 켜", "제한하지 않"], "feedback": "limit, turn off, set이 병렬로 연결되어 있습니다."}]},
-    {"sentence_index": 14, "concepts": [{"name": "정신적 에너지 절약과 집중력 향상", "keywords": ["정신적 에너지", "절약", "집중", "경계"], "wrong_patterns": ["에너지를 낭비", "집중력 저하"], "feedback": "By creating these boundaries는 경계를 만드는 방법을 설명합니다."}]},
-    {"sentence_index": 15, "concepts": [{"name": "기술을 완전히 거부하는 것은 아님", "keywords": ["기술", "거부하지", "완전히", "아니"], "wrong_patterns": ["기술을 완전히 거부", "기술을 사용하지 않"], "feedback": "does not mean completely rejecting은 ‘완전히 거부한다는 뜻은 아니다’입니다."}]},
-    {"sentence_index": 16, "concepts": [{"name": "기술은 교육·소통·업무에 유용함", "keywords": ["교육", "의사소통", "업무", "유용"], "wrong_patterns": ["기술은 쓸모없"], "feedback": "remain extremely useful는 ‘여전히 매우 유용하다’입니다."}]},
-    {"sentence_index": 17, "concepts": [{"name": "사람이 기술과 주의를 통제해야 함", "keywords": ["기술을 통제", "관심", "주의", "핵심"], "wrong_patterns": ["기술이 나를 통제", "기술에 통제당"], "feedback": "rather than은 사람이 기술을 통제하는 것과 기술이 주의를 통제하도록 두는 것을 대조합니다."}]},
-    {"sentence_index": 18, "concepts": [{"name": "디지털 방해를 줄이는 능력이 필수적임", "keywords": ["디지털", "방해", "줄", "필수", "능력"], "wrong_patterns": ["방해가 많아져야", "필수가 아니다"], "feedback": "fewer는 셀 수 있는 대상이 더 적다는 뜻입니다."}]},
-    {"sentence_index": 19, "concepts": [{"name": "선택 과부하를 줄이면 더 명확히 결정하고 집중함", "keywords": ["선택", "과부하", "명확", "여가", "집중", "중요"], "wrong_patterns": ["더 혼란", "집중하지 못"], "feedback": "make, enjoy, focus가 병렬로 연결되어 있습니다."}]}
-  ]
+  }
 }

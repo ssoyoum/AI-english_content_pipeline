@@ -1,72 +1,120 @@
 {
-  "topic": "Climate Change and Water",
+  "topic": "CLIMATE",
   "title": "Climate Change and Water",
   "article": [
     {
-      "heading": "Introduction",
-      "paragraph": "Climate change is no longer a distant threat. It is a present reality that affects ecosystems, communities, and the availability of vital resources. Among the most critical of these resources is water."
+      "heading": "INTRODUCTION",
+      "paragraph": "Climate change is no longer a distant threat—it is a present reality that affects ecosystems, communities, and the availability of vital resources. Among the most critical of these resources is water."
     },
     {
-      "heading": "Changing Rainfall Patterns",
-      "paragraph": "Over the past few decades, scientists have observed shifts in rainfall distribution around the world. Some regions are experiencing prolonged droughts, while others face intense flooding."
+      "heading": "CHANGING RAINFALL PATTERNS",
+      "paragraph": "Over the past few decades, scientists have observed shifts in rainfall distribution around the world. Some regions are experiencing prolonged droughts, while others face intense flooding. These changes disrupt the natural cycle of water, making it difficult to manage reservoirs, irrigation systems, and urban water supplies."
     },
     {
-      "heading": "Rising Temperatures",
-      "paragraph": "Higher temperatures increase the rate of evaporation from lakes, rivers, and soil. Even if rainfall levels remain the same, the net water availability decreases."
+      "heading": "MELTING GLACIERS AND SNOWPACKS",
+      "paragraph": "In many mountainous regions, glaciers and snowpacks serve as natural water towers, slowly releasing water into rivers and streams. However, due to global warming, these ice reserves are shrinking at an alarming rate."
+    },
+    {
+      "heading": "RISING TEMPERATURES",
+      "paragraph": "Higher temperatures increase the rate of evaporation from lakes, rivers, and soil. This means that even if rainfall levels remain the same, the net water availability decreases."
+    },
+    {
+      "heading": "WATER QUALITY ISSUES",
+      "paragraph": "Not only is the quantity of water affected, but also its quality."
     }
   ],
   "vocabulary": [
-    {
-      "expression": "present reality",
-      "meaning": "현재의 현실",
-      "example": "Climate change is a present reality."
-    },
-    {
-      "expression": "prolonged droughts",
-      "meaning": "장기간의 가뭄",
-      "example": "Prolonged droughts can threaten food production."
-    },
-    {
-      "expression": "net water availability",
-      "meaning": "실제로 이용 가능한 물의 양",
-      "example": "Net water availability may decrease even when rainfall stays the same."
-    }
+    { "expression": "present reality", "meaning": "현재의 현실", "example": "Climate change is a present reality." },
+    { "expression": "vital resources", "meaning": "필수 자원", "example": "Water is one of the most vital resources." },
+    { "expression": "rainfall distribution", "meaning": "강우 분포", "example": "Rainfall distribution is changing around the world." },
+    { "expression": "prolonged droughts", "meaning": "장기 가뭄", "example": "Prolonged droughts can threaten food production." },
+    { "expression": "intense flooding", "meaning": "심각한 홍수", "example": "Intense flooding can damage communities." },
+    { "expression": "natural water towers", "meaning": "자연적인 물 저장고", "example": "Glaciers serve as natural water towers." },
+    { "expression": "ice reserves", "meaning": "얼음 저장량", "example": "Global warming is reducing ice reserves." },
+    { "expression": "rate of evaporation", "meaning": "증발 속도", "example": "Higher temperatures increase the rate of evaporation." },
+    { "expression": "net water availability", "meaning": "실제로 이용 가능한 물의 양", "example": "Net water availability decreases when evaporation rises." },
+    { "expression": "not only A but also B", "meaning": "A뿐만 아니라 B도", "example": "Not only the quantity but also the quality is affected." }
   ],
   "sentence_interpretations": [
     {
-      "sentence": "Climate change is no longer a distant threat. It is a present reality that affects ecosystems, communities, and the availability of vital resources.",
+      "section": "INTRODUCTION",
+      "subheading": "A Present Reality",
+      "sentence": "Climate change is no longer a distant threat—it is a present reality that affects ecosystems, communities, and the availability of vital resources.",
       "translation": "기후 변화는 더 이상 먼 미래의 위협이 아니다. 기후 변화는 생태계와 공동체, 그리고 필수 자원의 이용 가능성에 영향을 미치는 현재의 현실이다.",
-      "learning_note": "no longer A는 더 이상 A가 아니라는 뜻입니다.",
-      "focus_terms": ["no longer", "present reality", "affects", "availability"]
+      "learning_note": "no longer A는 ‘더 이상 A가 아니다’라는 뜻입니다.",
+      "focus_terms": []
     },
     {
+      "section": "INTRODUCTION",
+      "subheading": "Water as a Critical Resource",
+      "sentence": "Among the most critical of these resources is water.",
+      "translation": "이러한 자원 중 가장 중요한 것 가운데 하나가 물이다.",
+      "learning_note": "Among the most critical of these resources is water는 ‘이 자원들 중 가장 중요한 것은 물이다’라는 도치 표현입니다.",
+      "focus_terms": []
+    },
+    {
+      "section": "CHANGING RAINFALL PATTERNS",
+      "subheading": "Shifting Rainfall Patterns",
+      "sentence": "Over the past few decades, scientists have observed shifts in rainfall distribution around the world.",
+      "translation": "지난 수십 년 동안 과학자들은 전 세계적으로 강우 분포가 변하는 현상을 관찰해왔다.",
+      "learning_note": "have observed는 과거부터 현재까지 관찰해왔다는 현재완료 표현입니다.",
+      "focus_terms": []
+    },
+    {
+      "section": "CHANGING RAINFALL PATTERNS",
+      "subheading": "Droughts and Flooding",
       "sentence": "Some regions are experiencing prolonged droughts, while others face intense flooding.",
-      "translation": "일부 지역은 장기간의 가뭄을 겪는 반면, 다른 지역은 심각한 홍수에 직면하고 있다.",
-      "learning_note": "while은 서로 다른 두 상황을 대조할 때 사용합니다.",
-      "focus_terms": ["prolonged droughts", "while", "intense flooding"]
+      "translation": "일부 지역은 장기간의 가뭄을 겪고 있는 반면, 다른 지역은 극심한 홍수에 직면하고 있다.",
+      "learning_note": "while은 두 지역의 서로 다른 상황을 대조합니다.",
+      "focus_terms": []
     },
     {
-      "sentence": "Even if rainfall levels remain the same, the net water availability decreases.",
-      "translation": "강우량이 같은 수준으로 유지되더라도 실제로 이용 가능한 물의 양은 감소한다.",
-      "learning_note": "even if는 어떤 조건을 가정하더라도 결과가 달라지지 않음을 나타냅니다.",
-      "focus_terms": ["Even if", "remain the same", "net water availability"]
-    }
-  ],
-  "conversation_questions": [
-    {
-      "question": "How does climate change affect water availability in your country?",
-      "sample_answer": "Changing rainfall patterns are making water management more difficult in my country.",
-      "coaching_point": "Use due to or because of to explain a cause."
+      "section": "CHANGING RAINFALL PATTERNS",
+      "subheading": "Disrupted Water Cycles",
+      "sentence": "These changes disrupt the natural cycle of water, making it difficult to manage reservoirs, irrigation systems, and urban water supplies.",
+      "translation": "이러한 변화는 물의 자연 순환을 방해하여 저수지, 관개 시스템, 도시의 물 공급을 관리하기 어렵게 만든다.",
+      "learning_note": "making it difficult to manage는 물 관리가 어려워지는 결과를 설명합니다.",
+      "focus_terms": []
     },
     {
-      "question": "How can individuals help reduce water waste during dry seasons?",
-      "sample_answer": "People can reuse water whenever possible and avoid unnecessary consumption.",
-      "coaching_point": "Use can plus the base verb to describe practical actions."
+      "section": "MELTING GLACIERS AND SNOWPACKS",
+      "subheading": "Natural Water Towers",
+      "sentence": "In many mountainous regions, glaciers and snowpacks serve as natural water towers, slowly releasing water into rivers and streams.",
+      "translation": "많은 산악 지역에서 빙하와 적설은 자연적인 물 저장고 역할을 하며, 강과 하천에 물을 천천히 방출한다.",
+      "learning_note": "serve as는 ‘~의 역할을 하다’, slowly releasing은 물을 방출하면서 역할을 한다는 뜻입니다.",
+      "focus_terms": []
     },
     {
-      "question": "What policies could help communities manage climate-related water challenges?",
-      "sample_answer": "Water reuse technologies and better infrastructure could help communities adapt.",
-      "coaching_point": "Use could to suggest possible solutions politely."
+      "section": "MELTING GLACIERS AND SNOWPACKS",
+      "subheading": "Shrinking Ice Reserves",
+      "sentence": "However, due to global warming, these ice reserves are shrinking at an alarming rate.",
+      "translation": "그러나 지구 온난화로 인해 이러한 얼음 저장량은 우려스러운 속도로 줄어들고 있다.",
+      "learning_note": "due to는 원인을, at an alarming rate는 매우 걱정스러운 속도를 나타냅니다.",
+      "focus_terms": []
+    },
+    {
+      "section": "RISING TEMPERATURES",
+      "subheading": "Rising Evaporation",
+      "sentence": "Higher temperatures increase the rate of evaporation from lakes, rivers, and soil.",
+      "translation": "기온이 높아지면 호수, 강, 토양에서 물이 증발하는 속도가 빨라진다.",
+      "learning_note": "increase the rate of evaporation은 증발 속도가 빨라진다는 인과관계를 보여줍니다.",
+      "focus_terms": []
+    },
+    {
+      "section": "RISING TEMPERATURES",
+      "subheading": "Net Water Availability",
+      "sentence": "This means that even if rainfall levels remain the same, the net water availability decreases.",
+      "translation": "이는 강우량이 동일하게 유지되더라도 실제로 이용할 수 있는 물의 양은 줄어든다는 의미이다.",
+      "learning_note": "even if는 ‘~일지라도’라는 조건을 만들며, 비가 같아도 실제 물의 양은 줄 수 있음을 강조합니다.",
+      "focus_terms": []
+    },
+    {
+      "section": "WATER QUALITY ISSUES",
+      "subheading": "Quantity and Quality",
+      "sentence": "Not only is the quantity of water affected, but also its quality.",
+      "translation": "영향을 받는 것은 물의 양뿐만 아니라 수질도 마찬가지이다.",
+      "learning_note": "Not only A but also B 도치 구문으로, 물의 양과 수질 모두 영향을 받는다는 뜻입니다.",
+      "focus_terms": []
     }
   ],
   "review_rules": [
@@ -74,10 +122,28 @@
       "sentence_index": 1,
       "concepts": [
         {
-          "name": "현재의 현실",
-          "keywords": ["현재", "현실", "생태계", "공동체", "자원"],
-          "wrong_patterns": ["먼 미래에만", "아직 일어나지 않은"],
-          "feedback": "present reality는 현재 실제로 일어나고 있는 현실을 뜻합니다."
+          "name": "현재 일어나고 있는 문제",
+          "keywords": [
+            "현재",
+            "현실",
+            "지금",
+            "오늘"
+          ],
+          "wrong_patterns": [
+            "미래",
+            "언젠가"
+          ],
+          "feedback": "present reality는 먼 미래가 아니라 지금 실제로 일어나고 있다는 뜻입니다."
+        },
+        {
+          "name": "영향을 받는 대상",
+          "keywords": [
+            "생태계",
+            "공동체",
+            "자원"
+          ],
+          "wrong_patterns": [],
+          "feedback": "affects 뒤에는 생태계, 공동체, 필수 자원이 병렬로 연결됩니다."
         }
       ]
     },
@@ -85,10 +151,22 @@
       "sentence_index": 2,
       "concepts": [
         {
-          "name": "지역별 대조",
-          "keywords": ["일부 지역", "가뭄", "다른 지역", "홍수", "반면"],
-          "wrong_patterns": ["모든 지역이 가뭄", "모든 지역이 홍수"],
-          "feedback": "while은 가뭄을 겪는 지역과 홍수를 겪는 지역을 대조합니다."
+          "name": "물의 중요성",
+          "keywords": [
+            "물"
+          ],
+          "wrong_patterns": [],
+          "feedback": "문장의 핵심 주어는 water입니다."
+        },
+        {
+          "name": "가장 중요한 자원 중 하나",
+          "keywords": [
+            "가장",
+            "중요",
+            "자원"
+          ],
+          "wrong_patterns": [],
+          "feedback": "Among ~는 여러 자원 가운데 하나를 고르는 표현입니다."
         }
       ]
     },
@@ -96,17 +174,280 @@
       "sentence_index": 3,
       "concepts": [
         {
-          "name": "조건과 결과",
-          "keywords": ["강우량", "같은", "유지", "이용 가능한 물", "감소"],
-          "wrong_patterns": ["강우량이 줄어야만", "물의 양이 증가"],
-          "feedback": "even if는 강우량이 같더라도 물의 이용 가능성이 감소할 수 있음을 나타냅니다."
+          "name": "지난 수십 년 동안",
+          "keywords": [
+            "지난",
+            "수십",
+            "몇십",
+            "몇 십",
+            "기간"
+          ],
+          "wrong_patterns": [],
+          "feedback": "Over the past few decades는 최근 수십 년에 걸친 기간을 뜻합니다."
+        },
+        {
+          "name": "강우 분포의 변화",
+          "keywords": [
+            "강우",
+            "강수",
+            "비",
+            "분포",
+            "변화",
+            "이동"
+          ],
+          "wrong_patterns": [],
+          "feedback": "shifts in rainfall distribution은 비가 내리는 지역과 양상이 변했다는 의미입니다."
+        }
+      ]
+    },
+    {
+      "sentence_index": 4,
+      "concepts": [
+        {
+          "name": "일부 지역의 장기 가뭄",
+          "keywords": [
+            "일부",
+            "지역",
+            "장기",
+            "장기간",
+            "가뭄"
+          ],
+          "wrong_patterns": [],
+          "feedback": "prolonged droughts는 오랫동안 이어지는 가뭄입니다."
+        },
+        {
+          "name": "다른 지역의 극심한 홍수",
+          "keywords": [
+            "다른",
+            "지역",
+            "극심",
+            "심한",
+            "홍수"
+          ],
+          "wrong_patterns": [],
+          "feedback": "intense flooding은 강도가 매우 큰 홍수를 뜻합니다."
+        }
+      ]
+    },
+    {
+      "sentence_index": 5,
+      "concepts": [
+        {
+          "name": "물의 자연 순환 방해",
+          "keywords": [
+            "자연",
+            "순환",
+            "물",
+            "방해",
+            "깨뜨"
+          ],
+          "wrong_patterns": [],
+          "feedback": "These changes는 앞 문장의 강우 패턴 변화를 가리킵니다."
+        },
+        {
+          "name": "관리하기 어려워짐",
+          "keywords": [
+            "어렵",
+            "관리",
+            "저수지",
+            "관개",
+            "공급"
+          ],
+          "wrong_patterns": [],
+          "feedback": "making it difficult to는 ‘~하기 어렵게 만들다’라는 결과 표현입니다."
+        }
+      ]
+    },
+    {
+      "sentence_index": 6,
+      "concepts": [
+        {
+          "name": "빙하와 적설",
+          "keywords": [
+            "빙하",
+            "눈",
+            "적설",
+            "설원"
+          ],
+          "wrong_patterns": [],
+          "feedback": "snowpacks는 산에 쌓인 눈과 눈 저장량을 가리킵니다."
+        },
+        {
+          "name": "자연적인 물 저장고 역할",
+          "keywords": [
+            "저장",
+            "물 저장",
+            "물탑",
+            "물 저장고",
+            "역할"
+          ],
+          "wrong_patterns": [],
+          "feedback": "natural water towers는 물을 저장했다가 천천히 공급한다는 비유입니다."
+        },
+        {
+          "name": "강과 하천에 천천히 방출",
+          "keywords": [
+            "강",
+            "하천",
+            "천천히",
+            "방출",
+            "흘려"
+          ],
+          "wrong_patterns": [],
+          "feedback": "slowly releasing은 물을 강과 하천으로 조금씩 보낸다는 의미입니다."
+        }
+      ]
+    },
+    {
+      "sentence_index": 7,
+      "concepts": [
+        {
+          "name": "지구 온난화가 원인",
+          "keywords": [
+            "지구",
+            "온난화",
+            "기후",
+            "더워"
+          ],
+          "wrong_patterns": [],
+          "feedback": "due to global warming은 빙하 감소의 원인을 설명합니다."
+        },
+        {
+          "name": "얼음 저장량이 빠르게 감소",
+          "keywords": [
+            "얼음",
+            "빙하",
+            "저장",
+            "줄",
+            "감소",
+            "사라"
+          ],
+          "wrong_patterns": [],
+          "feedback": "are shrinking은 현재 진행 중인 감소를 의미합니다."
+        }
+      ]
+    },
+    {
+      "sentence_index": 8,
+      "concepts": [
+        {
+          "name": "기온 상승",
+          "keywords": [
+            "기온",
+            "온도",
+            "더운",
+            "높아"
+          ],
+          "wrong_patterns": [],
+          "feedback": "Higher temperatures가 문장의 원인입니다."
+        },
+        {
+          "name": "호수·강·토양에서 증발 증가",
+          "keywords": [
+            "호수",
+            "강",
+            "토양",
+            "증발",
+            "빠르"
+          ],
+          "wrong_patterns": [],
+          "feedback": "from은 증발이 일어나는 장소를 나타냅니다."
+        }
+      ]
+    },
+    {
+      "sentence_index": 9,
+      "concepts": [
+        {
+          "name": "강우량이 같아도",
+          "keywords": [
+            "강우",
+            "강수",
+            "비",
+            "같",
+            "동일"
+          ],
+          "wrong_patterns": [],
+          "feedback": "even if rainfall levels remain the same은 비가 그대로라는 가정입니다."
+        },
+        {
+          "name": "실제로 이용 가능한 물은 감소",
+          "keywords": [
+            "실제",
+            "이용",
+            "사용",
+            "가능",
+            "물",
+            "줄",
+            "감소"
+          ],
+          "wrong_patterns": [
+            "증가",
+            "늘"
+          ],
+          "feedback": "net water availability는 증발을 고려한 실제 물의 가용량입니다."
+        }
+      ]
+    },
+    {
+      "sentence_index": 10,
+      "concepts": [
+        {
+          "name": "물의 양",
+          "keywords": [
+            "양",
+            "수량",
+            "물"
+          ],
+          "wrong_patterns": [],
+          "feedback": "quantity는 물의 양을 의미합니다."
+        },
+        {
+          "name": "물의 질 또는 수질",
+          "keywords": [
+            "질",
+            "수질",
+            "깨끗",
+            "오염"
+          ],
+          "wrong_patterns": [],
+          "feedback": "quality는 이 문맥에서 물의 질, 즉 수질입니다."
+        },
+        {
+          "name": "둘 다 영향을 받음",
+          "keywords": [
+            "둘",
+            "모두",
+            "뿐만 아니라",
+            "영향",
+            "받"
+          ],
+          "wrong_patterns": [],
+          "feedback": "Not only A but also B는 A뿐만 아니라 B도라는 강조 표현입니다."
         }
       ]
     }
   ],
-  "audio_script": "Climate change is no longer a distant threat. It is a present reality that affects ecosystems, communities, and the availability of vital resources. Among the most critical of these resources is water. Over the past few decades, scientists have observed shifts in rainfall distribution around the world. Some regions are experiencing prolonged droughts, while others face intense flooding. Higher temperatures increase the rate of evaporation from lakes, rivers, and soil. Even if rainfall levels remain the same, the net water availability decreases.",
+  "conversation_questions": [
+    {
+      "question": "How does climate change and water connect to your daily life?",
+      "sample_answer": "I can apply this idea by making one practical change this week.",
+      "coaching_point": "Use because or so to explain a reason and result."
+    },
+    {
+      "question": "Which idea in this lesson would you like to discuss?",
+      "sample_answer": "I would like to discuss the idea that has the clearest practical effect.",
+      "coaching_point": "Use would like to when sharing a preference."
+    },
+    {
+      "question": "What is one action you can take after reading?",
+      "sample_answer": "I can test one small action and review the result later.",
+      "coaching_point": "Use can plus the base verb for practical actions."
+    }
+  ],
+  "audio_script": "Climate change is no longer a distant threat—it is a present reality that affects ecosystems, communities, and the availability of vital resources. Among the most critical of these resources is water. Over the past few decades, scientists have observed shifts in rainfall distribution around the world. Some regions are experiencing prolonged droughts, while others face intense flooding. These changes disrupt the natural cycle of water, making it difficult to manage reservoirs, irrigation systems, and urban water supplies. In many mountainous regions, glaciers and snowpacks serve as natural water towers, slowly releasing water into rivers and streams. However, due to global warming, these ice reserves are shrinking at an alarming rate. Higher temperatures increase the rate of evaporation from lakes, rivers, and soil. This means that even if rainfall levels remain the same, the net water availability decreases. Not only is the quantity of water affected, but also its quality.",
   "metadata": {
-    "reading_time": "5 minutes",
+    "reading_time": "8 minutes",
     "conversation_time": "10 minutes"
   }
 }
