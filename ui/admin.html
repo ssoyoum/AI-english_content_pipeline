@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Content Studio · English Pipeline</title>
+    <link rel="stylesheet" href="/ui/admin.css" />
+  </head>
+  <body>
+    <div class="admin-shell">
+      <header class="admin-topbar">
+        <div class="admin-brand"><span class="admin-logo">E</span><div><span>ENGLISH CONTENT PIPELINE</span><strong>Content Studio</strong></div></div>
+        <a class="back-link" href="/ui/">Open learner view ↗</a>
+      </header>
+
+      <main class="admin-main">
+        <header class="admin-page-heading"><p class="eyebrow">ADMIN WORKSPACE</p><h1>Create a lesson draft</h1><p>Generate structured content, review every sentence, then publish it to the learner catalog.</p></header>
+
+        <section class="studio-layout">
+          <form class="control-card" id="lessonForm">
+            <div class="card-heading"><div><p class="eyebrow">1 · CREATE</p><h2>Lesson brief</h2></div><span class="step-badge">Draft</span></div>
+            <label>Topic<input id="topic" name="topic" value="AI Regulation and Society" required /></label>
+            <div class="field-grid">
+              <label>Level<select id="level" name="level"><option>Beginner</option><option selected>Intermediate</option><option>Advanced</option></select></label>
+              <label>Sentences<input id="sentenceCount" name="sentence_count" type="number" min="1" max="30" value="10" required /></label>
+            </div>
+            <label>Category<input id="category" name="category" value="Technology" required /></label>
+            <details><summary>Advanced options</summary><label>Learning goal<input id="learningGoal" name="learning_goal" placeholder="e.g. explain a policy trade-off" /></label><label>Tone<input id="tone" name="tone" placeholder="clear, academic, practical" /></label><label>Target vocabulary<input id="targetVocabulary" name="target_vocabulary" placeholder="regulation, innovation, balance" /></label></details>
+            <label class="check-row"><input id="useSample" type="checkbox" checked /> <span>Use local sample for preview <small>No API key required; uncheck to call the configured LLM.</small></span></label>
+            <button class="primary-button" id="generateButton" type="submit">Generate Draft</button>
+            <button class="secondary-button" id="restoreButton" type="button">Restore saved draft</button>
+            <p class="form-status" id="formStatus" role="status"></p>
+          </form>
+
+          <section class="preview-card" id="previewCard" hidden>
+            <div class="card-heading"><div><p class="eyebrow">2 · HUMAN REVIEW</p><h2>Draft preview</h2></div><span class="draft-status" id="draftStatus">Ready for review</span></div>
+            <div class="draft-meta"><label>Lesson title<input id="draftTitle" /></label><div><span>Level</span><b id="draftLevel"></b></div><div><span>Category</span><b id="draftCategory"></b></div><div><span>Sentences</span><b id="draftSentenceCount"></b></div></div>
+            <div class="content-check" id="contentCheck"></div>
+            <div class="sentence-editor" id="sentenceEditor"></div>
+            <div class="preview-actions"><button class="secondary-button" id="regenerateButton" type="button">Regenerate Draft</button><button class="secondary-button" id="saveDraftButton" type="button">Save Draft</button><label class="tts-check"><input id="generateTts" type="checkbox" /> Generate TTS on publish</label><button class="primary-button" id="publishButton" type="button">Publish Lesson</button></div>
+            <p class="form-status" id="publishStatus" role="status"></p>
+          </section>
+        </section>
+
+        <section class="publish-result" id="publishResult" hidden></section>
+      </main>
+    </div>
+    <script src="/ui/admin.js"></script>
+  </body>
+</html>
