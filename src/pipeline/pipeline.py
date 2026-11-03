@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import json
 import re
-from datetime import UTC, datetime
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Protocol
 
@@ -34,7 +34,7 @@ class ContentPipeline:
         )
         run_metadata = {
             "status": "content_generated",
-            "created_at": datetime.now(UTC).isoformat(),
+            "created_at": datetime.now(timezone.utc).isoformat(),
             "topic": data["topic"],
             "title": data["title"],
         }
@@ -58,7 +58,7 @@ def record_stage(
     metadata = json.loads(metadata_path.read_text(encoding="utf-8"))
     metadata.setdefault("stages", {})[stage] = {
         "status": stage_status,
-        "updated_at": datetime.now(UTC).isoformat(),
+        "updated_at": datetime.now(timezone.utc).isoformat(),
         **(details or {}),
     }
     if overall_status:

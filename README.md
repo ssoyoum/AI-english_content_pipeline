@@ -16,7 +16,7 @@
 | --- | --- |
 | **문제** | 영어 학습 콘텐츠를 만들 때마다 원문 작성·문장별 해석·오디오 녹음·학습 화면 등록을 따로 손으로 반복해야 했고, `content/*.json`과 학습자 UI의 샘플 데이터를 이중으로 갱신해야 했습니다. |
 | **해결** | 주제 또는 원문을 CLI/관리자 화면에 넣으면 JSON Schema로 검증된 `content.json` 하나를 만들고, 같은 파일을 Notion 게시·TTS 생성·학습자 UI가 그대로 재사용합니다. 유료 TTS 없이 Edge Neural TTS를 우선 쓰고 실패하면 로컬 음성 엔진으로 넘어가는 3단 fallback을 넣었습니다. |
-| **규모** | 레슨 7개, 테스트 12개(통과 9·환경 문제로 실패 3), 커밋 6개 |
+| **규모** | 레슨 7개, 테스트 18개 전부 통과, 커밋 6개 |
 | **개발** | 1인 개발 · 2026-08-23 ~ 2026-08-30(약 1주) · 기획·백엔드·관리자 UI·학습자 UI 전부 |
 | **상태** | 로컬 실행 프로토타입, 공개 배포 없음 |
 
@@ -81,7 +81,6 @@ python -m unittest discover -s tests -v
 ## 한계
 
 - 번역 피드백은 LLM 평가가 아니라 키워드/규칙 기반 `Key Meaning Coverage`입니다(`TASKS.md`에 명시). LLM 기반 번역 리뷰어는 아직 없습니다.
-- 로컬 Python 3.10 환경에서 `python -m unittest discover -s tests -v`를 실행하면 12개 중 9개가 통과하고, `test_admin`·`test_api`·`test_pipeline` 3개는 `src/pipeline/pipeline.py`가 쓰는 `datetime.UTC`(Python 3.11부터 제공)를 import하지 못해 실패합니다. FastAPI/관리자 경로는 Python 3.11 이상에서 확인해야 합니다.
 - TTS가 Edge Neural 단계를 넘어 pyttsx3·Windows Speech로 넘어가면 단어별 발화 타이밍 정보가 생성되지 않습니다.
 - OpenAI API 키가 없는 환경에서는 관리자 Generate가 local sample 모드로만 동작합니다.
 - 관리자 화면에 별도 인증이 없습니다.
