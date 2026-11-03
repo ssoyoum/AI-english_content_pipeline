@@ -20,6 +20,16 @@
 | **개발** | 1인 개발 · 2026-08-23 ~ 2026-08-30(약 1주) · 기획·백엔드·관리자 UI·학습자 UI 전부 |
 | **상태** | 로컬 실행 프로토타입, 공개 배포 없음 |
 
+## 화면
+
+학습 기록이 없는 초기 상태에서 `uvicorn`으로 띄운 화면을 캡처했습니다(1440px 너비).
+
+| Dashboard | Study |
+| --- | --- |
+| ![Dashboard](docs/screenshots/dashboard.png) | ![Study](docs/screenshots/study.png) |
+| **Calendar** | **Progress** |
+| ![Calendar](docs/screenshots/calendar.png) | ![Progress](docs/screenshots/progress.png) |
+
 ## 어떻게 동작하는가
 
 ```mermaid

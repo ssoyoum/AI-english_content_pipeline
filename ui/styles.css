@@ -471,3 +471,26 @@ body { color:#4A4A4A; background:#FFF5F5; }
 .reading-sentence-item .reading-paragraph { margin:0 0 20px; color:#4A4A4A; font:400 20px/1.85 Georgia,serif; }
 .reading-sentence-item hr { height:1px; margin:24px 0 0; border:0; background:#F7D6D0; }
 @media (max-width:560px) { .topbar-actions { gap:10px; } .admin-link { font-size:10px; } .reading-text { padding:8px 16px; } .reading-sentence-item { padding:20px 4px; } .reading-sentence-item .reading-paragraph { font-size:18px; } }
+
+/* --- Learning UI polish (Duolingo-style patterns: chunky buttons, thick progress, feedback panel) --- */
+.progress-track { height: 10px; background: #f3e3e0; }
+.progress-track span { background: linear-gradient(90deg, #E2B4BD, #D5A2AE); box-shadow: inset 0 -2px 0 rgba(0, 0, 0, .06); }
+.sentence-card { border-width: 2px; border-radius: 18px; }
+.original-sentence { font-size: clamp(20px, 2.2vw, 26px); line-height: 1.55; }
+.status-pill { font-weight: 700; }
+.reveal-button, .study-controls .button, .design-primary-button { transition: transform 120ms ease, box-shadow 120ms ease, background 120ms ease; }
+.reveal-button { padding: 12px 22px; border: 2px solid var(--line); border-bottom-width: 4px; border-radius: 14px; color: #4A4A4A; background: #fff; text-decoration: none; letter-spacing: .04em; }
+.reveal-button:hover { background: #FFF5F5; }
+.reveal-button:active, .study-controls .button:active, .design-primary-button:active { transform: translateY(2px); border-bottom-width: 2px; }
+.study-controls .button { border-radius: 14px; border-bottom-width: 4px; font-weight: 700; }
+.design-primary-button { border-radius: 14px; box-shadow: 0 4px 0 #D5A2AE; }
+.design-primary-button:active { box-shadow: 0 1px 0 #D5A2AE; }
+.answer-preview { padding: 20px; border: 2px solid #cfe5d3; border-radius: 16px; background: #f3faf4; animation: feedback-in 220ms ease-out; }
+.answer-preview .answer-label { color: #3d7a4a; }
+@keyframes feedback-in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+.design-stat-card { border-width: 2px; border-radius: 16px; transition: transform 120ms ease; }
+.design-stat-card:hover { transform: translateY(-2px); }
+#designDailyStreak::before { content: "\1F525  "; }
+.design-card { border-radius: 16px; }
+button:focus-visible, textarea:focus-visible, a:focus-visible { outline: 3px solid #B77C8B; outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
