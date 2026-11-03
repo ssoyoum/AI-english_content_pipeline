@@ -28,6 +28,13 @@ Last Updated: 2026-11-04
 
 ## Completed
 
+### 2026-11-04 학습자 UI 다듬기
+
+- [x] 학습자 UI 스타일 보강(`ui/styles.css` 하단 추가 블록): 두꺼운 진행 바, 3D 느낌의 버튼, 정답 패널 강조·등장 애니메이션, streak 🔥 표시, 포커스 링, `prefers-reduced-motion` 대응
+  - 근거: 헤드리스 Chrome으로 Dashboard 화면을 다시 캡처해 flame·버튼 변화 확인. 별 개수가 확인된 레포를 그대로 따라 한 것은 아니며, Duolingo 계열 UI 패턴만 참고함
+- [x] README에 화면 캡처 4장 추가(`docs/screenshots/`: dashboard, study, calendar, progress — 학습 기록이 없는 초기 상태)
+  - 미검증: 정답 보기·피드백 패널이 열린 상태, 관리자 화면, 모바일 폭 캡처는 없음
+
 ### 2026-11-04 점검으로 확인한 사실
 
 - [x] 커밋 반영 확인: 레슨 파이프라인 `c90b2c1`, API·관리자 `1ed8d39`, 학습자 UI `c02b952`
